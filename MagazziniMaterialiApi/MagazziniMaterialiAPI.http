@@ -1,0 +1,6 @@
+@MagazziniMaterialiAPI_HostAddress = http://localhost:5199
+
+GET {{MagazziniMaterialiAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

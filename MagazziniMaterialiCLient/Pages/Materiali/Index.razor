@@ -1,0 +1,51 @@
+﻿@page "/materiali"
+@using MagazziniMaterialiCLient.Models.Entity.DTOs
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+
+<h3>Lista Materiali</h3>
+
+<div class="mb-3">
+    <a href="/materiale/create" class="btn btn-primary">Crea Nuovo Materiale</a>
+</div>
+
+@if (materiali == null)
+{
+    <p><em>Caricamento...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Codice Materiale</th>
+                <th>Descrizione</th>
+                <th>Azioni</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var materiale in materiali)
+            {
+                <tr>
+                    <td>@materiale.Id</td>
+                    <td>@materiale.CodiceMateriale</td>
+                    <td>@materiale.Descrizione</td>
+                    <td>
+                        <a href="/materiale/edit/@materiale.CodiceMateriale" class="btn btn-primary">Modifica</a>
+                        <a href="/materiale/delete/@materiale.CodiceMateriale" class="btn btn-danger">Elimina</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<MaterialeDTO> materiali;
+
+    protected override async Task OnInitializedAsync()
+    {
+        materiali = await HttpClient.GetFromJsonAsync<List<MaterialeDTO>>("api/materiale");
+    }
+}

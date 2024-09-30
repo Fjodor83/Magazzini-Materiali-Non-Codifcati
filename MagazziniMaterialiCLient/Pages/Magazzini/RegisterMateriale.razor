@@ -1,0 +1,44 @@
+﻿@page "/magazzini/materiali/register/{MagazzinoId:int}"
+@using MagazziniMaterialiCLient.Models.Entity.DTOs
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+
+<h3>Registra Nuovo Materiale</h3>
+
+<div class="form-group">
+    <label for="codiceMateriale">Codice Materiale:</label>
+    <input type="text" @bind="codiceMateriale" class="form-control" id="codiceMateriale" />
+</div>
+
+<button class="btn btn-primary" @onclick="SubmitMateriale">Registra</button>
+<a href="/magazzini/materiali/@MagazzinoId" class="btn btn-secondary">Annulla</a>
+
+@code {
+    [Parameter]
+    public int MagazzinoId { get; set; }
+
+    private string codiceMateriale;
+
+    private async Task SubmitMateriale()
+    {
+        if (string.IsNullOrWhiteSpace(codiceMateriale))
+        {
+            // Gestisci input non valido
+            return;
+        }
+
+        // Chiamata API per registrare il materiale
+        var response = await HttpClient.PostAsync($"api/Magazzino/registerMaterialeMagazzino/{MagazzinoId}/{codiceMateriale}", null);
+
+        if (response.IsSuccessStatusCode)
+        {
+            // Naviga alla pagina dei materiali una volta registrato
+            NavigationManager.NavigateTo($"/magazzini/materiali/{MagazzinoId}");
+        }
+        else
+        {
+            // Gestisci errore di registrazione
+            // E.g. Mostra un messaggio di errore
+        }
+    }
+}

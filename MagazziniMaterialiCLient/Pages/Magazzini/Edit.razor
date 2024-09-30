@@ -1,0 +1,60 @@
+﻿@page "/magazzini/edit/{Id:int}"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using MagazziniMaterialiCLient.Models.Entity
+<h3>Edit Magazzino</h3>
+
+@if (magazzino == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <EditForm Model="@magazzino" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="nome">Nome Magazzino:</label>
+            <InputText id="nome" @bind-Value="magazzino.NomeMagazzino" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="codiceMagazzino">Codice Magazzino:</label>
+            <InputText id="codiceMagazzino" @bind-Value="magazzino.CodiceMagazzino" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="descrizione">Descrizione Magazzino:</label>
+            <InputText id="descrizione" @bind-Value="magazzino.DescrizioneMagazzino" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="note">Note Magazzino:</label>
+            <InputText id="note" @bind-Value="magazzino.Note" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Magazzino magazzino;
+
+    protected override async Task OnInitializedAsync()
+    {
+        magazzino = await Http.GetFromJsonAsync<Magazzino>($"api/Magazzino/{Id}");
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await Http.PutAsJsonAsync($"api/Magazzino/{Id}", magazzino);
+        NavigationManager.NavigateTo("/magazzini");
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/magazzini");
+    }
+}

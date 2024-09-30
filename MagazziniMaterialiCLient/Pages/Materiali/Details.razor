@@ -1,0 +1,60 @@
+﻿@page "/materiale/details/{CodiceMateriale}"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using MagazziniMaterialiCLient.Models.Entity
+@using Microsoft.AspNetCore.Authorization
+
+
+<h3>Dettagli Materiale</h3>
+
+@if (materiale == null)
+{
+    <p><em>Caricamento...</em></p>
+}
+else
+{
+    <div>
+        <h4>Materiale</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">Codice Materiale</dt>
+            <dd class="col-sm-10">@materiale.CodiceMateriale</dd>
+            <dt class="col-sm-2">Nome</dt>
+            <dd class="col-sm-10">@materiale.Descrizione</dd>
+            <dt class="col-sm-2">Data Creazione</dt>
+            <dd class="col-sm-10">@materiale.DataCreazione.ToString("dd/MM/yyyy HH:mm")</dd>
+        </dl>
+
+        @if (materiale.Immagini != null && materiale.Immagini.Any())
+        {
+            <h5>Immagini</h5>
+            @foreach (var immagine in materiale.Immagini)
+            {
+                @if (immagine.IsPrincipale)
+                {
+                    <img src="data:image/png;base64,@immagine.QRCodeData" alt="QR Code" style="width:200px;height:200px;" />
+                }
+                @if (!string.IsNullOrEmpty(immagine.UrlImmagine))
+                {
+                    <img src="@immagine.UrlImmagine" alt="Immagine Materiale" style="width:200px;height:auto;" />
+                }
+            }
+        }
+    </div>
+    <div>
+        <a href="/materiale/edit/@materiale.CodiceMateriale" class="btn btn-primary">Modifica</a>
+        <a href="/materiali" class="btn btn-secondary">Torna alla Lista</a>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string CodiceMateriale { get; set; }
+
+    private Materiale materiale;
+
+    protected override async Task OnInitializedAsync()
+    {
+        materiale = await Http.GetFromJsonAsync<Materiale>($"api/Materiale/{CodiceMateriale}");
+    }
+}

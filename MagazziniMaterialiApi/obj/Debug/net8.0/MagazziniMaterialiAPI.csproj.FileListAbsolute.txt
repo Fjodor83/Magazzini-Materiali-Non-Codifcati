@@ -874,9 +874,9 @@ D:\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\n
 D:\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.pdb
 D:\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.genruntimeconfig.cache
 D:\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\ref\MagazziniMaterialiAPI.dll
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\MagazziniMaterialiCLient.staticwebassets.runtime.json
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\appsettings.Development.json
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\appsettings.json
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\MagazziniMaterialiCLient.staticwebassets.runtime.json
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\MagazziniMaterialiAPI.staticwebassets.runtime.json
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\MagazziniMaterialiAPI.exe
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\MagazziniMaterialiAPI.deps.json

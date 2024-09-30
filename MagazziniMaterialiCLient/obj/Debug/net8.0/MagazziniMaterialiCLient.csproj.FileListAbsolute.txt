@@ -3369,6 +3369,7 @@ D:\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\obj\Debu
 D:\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\obj\Debug\net8.0\refint\MagazziniMaterialiCLient.dll
 D:\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\obj\Debug\net8.0\MagazziniMaterialiCLient.pdb
 D:\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\obj\Debug\net8.0\ref\MagazziniMaterialiCLient.dll
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\BouncyCastle.Cryptography.wasm
@@ -3385,6 +3386,8 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\icudt_no_CJK.dat
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Intersoft.Crosslight.wasm
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\itextsharp.wasm
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\MagazziniMaterialiCLient.pdb
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\MagazziniMaterialiCLient.wasm
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNet.Identity.Core.wasm
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNet.Identity.EntityFramework.wasm
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.wasm
@@ -3590,19 +3593,6 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XPath.wasm
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XPath.XDocument.wasm
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\WindowsBase.wasm
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.wasm.gz
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\icudt_no_CJK.dat.gz
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.7.5u3b3aqom5.js.gz
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.7.czr2gj68hi.js.gz
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.js.map.gz
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map.gz
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\icudt_CJK.dat.gz
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\icudt_EFIGS.dat.gz
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js.gz
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.gz
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\MagazziniMaterialiCLient.pdb
-D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\MagazziniMaterialiCLient.wasm
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Formats.Asn1.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Threading.wasm.gz
@@ -3612,6 +3602,7 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Linq.Expressions.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Collections.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Identity.Core.wasm.gz
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Threading.ThreadPool.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Cryptography.KeyDerivation.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.Metadata.wasm.gz
@@ -3634,6 +3625,7 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Security.Principal.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XmlSerializer.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Configuration.wasm.gz
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\icudt_no_CJK.dat.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNet.Identity.EntityFramework.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Drawing.wasm.gz
@@ -3644,6 +3636,7 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Net.NetworkInformation.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.Tools.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Net.Security.wasm.gz
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.7.5u3b3aqom5.js.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Net.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Transactions.wasm.gz
@@ -3684,6 +3677,7 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XPath.XDocument.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.Contracts.wasm.gz
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.7.czr2gj68hi.js.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Loader.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Net.WebProxy.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Formats.Tar.wasm.gz
@@ -3720,6 +3714,7 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Private.Xml.Linq.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XPath.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.wasm.gz
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.js.map.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Net.WebClient.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.VisualBasic.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Handles.wasm.gz
@@ -3741,6 +3736,7 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Text.Json.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.Primitives.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.IO.FileSystem.wasm.gz
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.DispatchProxy.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.wasm.gz
@@ -3751,6 +3747,7 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.TypeConverter.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Caching.Abstractions.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.wasm.gz
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\icudt_CJK.dat.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Options.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Resources.ResourceManager.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.wasm.gz
@@ -3774,8 +3771,10 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Intersoft.Crosslight.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.ObjectModel.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Globalization.Calendars.wasm.gz
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\icudt_EFIGS.dat.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Xml.ReaderWriter.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Identity.EntityFrameworkCore.wasm.gz
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.VisualBasic.Core.wasm.gz
@@ -3796,6 +3795,7 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCL
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNet.Identity.Core.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.wasm.gz
+D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Text.Encoding.CodePages.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Net.WebSockets.Client.wasm.gz
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.Extensions.wasm.gz

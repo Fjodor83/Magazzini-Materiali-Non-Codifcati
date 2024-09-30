@@ -27,7 +27,7 @@ namespace MagazziniMaterialiAPI.Data
 
             // Configura CodiceMateriale come chiave alternativa per la tabella Materiale
             builder.Entity<Materiale>()
-                .HasAlternateKey(m => m.CodiceMateriale);  // Chiave alternativa su CodiceMateriale
+                   .HasAlternateKey(m => m.CodiceMateriale);  // Chiave alternativa su CodiceMateriale
 
             // Configurazioni per Movimentazione
             builder.Entity<Movimentazione>()

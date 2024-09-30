@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiAPI.csproj": {}
+    "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\MagazziniMaterialiAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiAPI.csproj": {
+    "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\MagazziniMaterialiAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiAPI.csproj",
+        "projectUniqueName": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\MagazziniMaterialiAPI.csproj",
         "projectName": "MagazziniMaterialiAPI",
-        "projectPath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiAPI.csproj",
+        "projectPath": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\MagazziniMaterialiAPI.csproj",
         "packagesPath": "C:\\Users\\fjodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\Magazzini-Materiali-Non-Codifcati\\obj\\",
+        "outputPath": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fjodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {
-                "projectPath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj"
+              "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {
+                "projectPath": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj"
               }
             }
           }
@@ -134,18 +134,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {
+    "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
+        "projectUniqueName": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
         "projectName": "MagazziniMaterialiCLient",
-        "projectPath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
+        "projectPath": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
         "packagesPath": "C:\\Users\\fjodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\MyWebsite\\MagazziniMaterialiCLient\\obj\\",
+        "outputPath": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fjodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -180,11 +180,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Intersoft.Crosslight": {
+              "target": "Package",
+              "version": "[6.0.5000.975, )"
+            },
             "Microsoft.AspNet.Identity.EntityFramework": {
               "target": "Package",
               "version": "[2.2.4, )"
             },
             "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
               "target": "Package",
               "version": "[8.0.8, )"
             },
@@ -204,13 +216,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[8.0.7, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[8.0.7, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -241,12 +253,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[8.0.7, 8.0.7]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

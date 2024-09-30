@@ -1,0 +1,40 @@
+﻿@page "/registra-operatore"
+
+@using MagazziniMaterialiCLient.Models.Entity.DTOs
+@using MagazziniMaterialiCLient.Services
+@inject AccountService AccountService
+@inject NavigationManager NavigationManager
+
+<h3>Registra Operatore</h3>
+
+<EditForm Model="@registraOperatoreDto" OnValidSubmit="HandleRegistrazione">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <InputText id="email" @bind-Value="registraOperatoreDto.Email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <InputText id="password" @bind-Value="registraOperatoreDto.Password" class="form-control" type="password" />
+    </div>
+    <button type="submit" class="btn btn-primary">Registra</button>
+</EditForm>
+
+@code {
+    private RegistraOperatoreDto registraOperatoreDto = new RegistraOperatoreDto();
+
+    private async Task HandleRegistrazione()
+    {
+        try
+        {
+            var operatoreId = await AccountService.RegistraOperatore(registraOperatoreDto);
+            NavigationManager.NavigateTo("/");
+        }
+        catch (Exception ex)
+        {
+            // Handle registration error
+        }
+    }
+}

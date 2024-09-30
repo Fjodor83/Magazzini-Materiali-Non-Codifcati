@@ -1,0 +1,48 @@
+﻿@page "/materiale/delete/{CodiceMateriale}"
+@using MagazziniMaterialiCLient.Models.Entity.DTOs
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+<h3>Elimina Materiale</h3>
+
+@if (materiale == null)
+{
+    <p><em>Caricamento...</em></p>
+}
+else
+{
+    <p>Sei sicuro di voler eliminare questo materiale?</p>
+    <div>
+        <h4>Dettagli Materiale</h4>
+        <p>Codice Materiale: @materiale.CodiceMateriale</p>
+        <p>Descrizione: @materiale.Descrizione</p>
+        <!-- Aggiungi altri campi del MaterialeDTO qui -->
+    </div>
+
+    <button class="btn btn-danger" @onclick="DeleteMateriale">Elimina</button>
+    <a href="/materiali" class="btn btn-secondary">Annulla</a>
+}
+
+@code {
+    [Parameter]
+    public string CodiceMateriale { get; set; }
+
+    private MaterialeDTO materiale;
+
+    protected override async Task OnInitializedAsync()
+    {
+        materiale = await HttpClient.GetFromJsonAsync<MaterialeDTO>($"api/Materiale/{CodiceMateriale}");
+    }
+
+    private async Task DeleteMateriale()
+    {
+        var response = await HttpClient.DeleteAsync($"api/Materiale/{CodiceMateriale}");
+        if (response.IsSuccessStatusCode)
+        {
+            NavigationManager.NavigateTo("/materiali");
+        }
+        else
+        {
+            // Gestisci l'errore
+        }
+    }
+}

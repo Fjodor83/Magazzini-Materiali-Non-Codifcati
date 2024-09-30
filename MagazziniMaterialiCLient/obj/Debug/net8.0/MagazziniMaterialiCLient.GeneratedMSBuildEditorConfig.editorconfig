@@ -1,0 +1,115 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = MagazziniMaterialiCLient
+build_property.RootNamespace = MagazziniMaterialiCLient
+build_property.ProjectDir = D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/AccountServices/AssegnaRuolo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFNlcnZpY2VzXEFzc2VnbmFSdW9sby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/AccountServices/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFNlcnZpY2VzXExvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/AccountServices/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFNlcnZpY2VzXExvZ291dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/AccountServices/RegisteraOperatore.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFNlcnZpY2VzXFJlZ2lzdGVyYU9wZXJhdG9yZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Magazzini/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFnYXp6aW5pXENyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Magazzini/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFnYXp6aW5pXERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Magazzini/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFnYXp6aW5pXERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Magazzini/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFnYXp6aW5pXEVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Magazzini/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFnYXp6aW5pXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Magazzini/MagazzinoMateriali.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFnYXp6aW5pXE1hZ2F6emlub01hdGVyaWFsaS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Magazzini/RegisterMateriale.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFnYXp6aW5pXFJlZ2lzdGVyTWF0ZXJpYWxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Materiali/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxpXENyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Materiali/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxpXERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Materiali/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxpXERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Materiali/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxpXEVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Materiali/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxpXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5wjuphxzam
+
+[D:/My Web Sites/Tirocinio/Magazzini-Materiali-Non-Codifcati/MagazziniMaterialiCLient/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-msb7idb7kp

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Gessi",
+    "Projects": [
+      {
+        "Path": "MagazziniMaterialiAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
+        "Action": "StartWithoutDebugging"
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+﻿@page "/magazzini"
+@using MagazziniMaterialiCLient.Models.Entity.DTOs
+@using MagazziniMaterialiCLient.Services
+@inject MagazzinoService MagazzinoService
+
+<h3>Magazzini</h3>
+
+@if (magazzini == null)
+{
+    <p>Caricamento in corso...</p>
+}
+else
+{
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Codice</th>
+            <th>Descrizione</th>
+            <th>Note</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var magazzino in magazzini)
+        {
+            <tr>
+                <td>@magazzino.NomeMagazzino</td>
+                <td>@magazzino.CodiceMagazzino</td>
+                <td>@magazzino.DescrizioneMagazzino</td>
+                <td>@magazzino.Note</td>
+                <td>
+                    <a href="/magazzini/edit/@magazzino.Id" class="btn btn-primary">Modifica</a>
+                    <a href="/magazzini/delete/@magazzino.Id" class="btn btn-danger">Elimina</a>
+                    <a href="/magazzini/materiali/@magazzino.Id" class="btn btn-info">Materiali</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+@code {
+    private List<MagazzinoDTO> magazzini;
+
+    protected override async Task OnInitializedAsync()
+    {
+        magazzini = await MagazzinoService.GetMagazziniAsync();
+    }
+}

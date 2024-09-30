@@ -10,7 +10,7 @@
     protected override async Task OnInitializedAsync()
     {
         await LocalStorage.RemoveItemAsync("authToken");
-        ((CustomAuthenticationStateProvider)AuthStateProvider).MarkUserAsLoggedOut();
+        await ((CustomAuthenticationStateProvider)AuthStateProvider).MarkUserAsLoggedOut();
         NavigationManager.NavigateTo("/");
     }
 }

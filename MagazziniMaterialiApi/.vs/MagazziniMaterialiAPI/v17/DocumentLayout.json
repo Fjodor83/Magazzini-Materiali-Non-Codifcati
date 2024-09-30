@@ -3,32 +3,41 @@
   "WorkspaceRootPath": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\missionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\missionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\services\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\registeraoperatore.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\assegnaruolo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\missioneprelievo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\missioneprelievo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\registeraoperatore.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\assegnaruolo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\missionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\missionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\missioneprelievo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\missioneprelievo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\materialecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\materialecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|d:\\my web sites\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,41 +148,201 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Logout.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Logout.razor",
+              "ToolTip": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Logout.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Logout.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T19:01:46.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Services\\CustomAuthenticationStateProvider.cs",
+              "ToolTip": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Services\\CustomAuthenticationStateProvider.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAE8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:51:49.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T15:38:26.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAUwE8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T15:29:01.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Home.razor",
               "ToolTip": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor",
               "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAuwIYAAAAFAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-30T11:45:02.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "MissioniController.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MissioniController.cs",
               "RelativeDocumentMoniker": "Controllers\\MissioniController.cs",
               "ToolTip": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MissioniController.cs",
               "RelativeToolTip": "Controllers\\MissioniController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAWwEIAAAA2AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEIAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T11:40:23.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 31,
+              "Title": "AssegnaRuolo.razor",
+              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
+              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
+              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T07:43:02.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RegistraOperatoreDto.cs",
+              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\RegistraOperatoreDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\RegistraOperatoreDto.cs",
+              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\RegistraOperatoreDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\RegistraOperatoreDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T07:39:46.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegisteraOperatore.razor",
+              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
+              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
+              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T07:36:29.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginModel.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T07:33:10.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
+              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
+              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T07:28:24.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
+              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T07:27:26.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegistrationResult.cs",
+              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\RegistrationResult.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\RegistrationResult.cs",
+              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\RegistrationResult.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\RegistrationResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T07:21:17.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoginResult.cs",
+              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginResult.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginResult.cs",
+              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginResult.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T07:19:23.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RegisteraOperatore.razor",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
               "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
@@ -181,7 +350,8 @@
               "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T11:35:20.131Z"
+              "WhenOpened": "2024-09-30T11:35:20.131Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -191,13 +361,14 @@
               "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
               "ToolTip": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
               "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "ViewState": "AQIAABAAAAAAAAAAAAAIwDgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T11:06:50.014Z"
+              "WhenOpened": "2024-09-30T11:06:50.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "CustomAuthenticationStateProvider.cs",
               "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\CustomAuthenticationStateProvider.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\CustomAuthenticationStateProvider.cs",
@@ -210,126 +381,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Home.razor",
-              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T07:43:52.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AssegnaRuolo.razor",
-              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T07:43:02.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "RegistraOperatoreDto.cs",
-              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\RegistraOperatoreDto.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\RegistraOperatoreDto.cs",
-              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\RegistraOperatoreDto.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\RegistraOperatoreDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:39:46.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "RegisteraOperatore.razor",
-              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
-              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
-              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T07:36:29.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginModel.cs",
-              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginModel.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:33:10.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Login.razor",
-              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
-              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
-              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwCIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T07:28:24.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
-              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:27:26.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "RegistrationResult.cs",
-              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\RegistrationResult.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\RegistrationResult.cs",
-              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\RegistrationResult.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\RegistrationResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:21:17.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "LoginResult.cs",
-              "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginResult.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginResult.cs",
-              "ToolTip": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginResult.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\LoginResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:19:23.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAABaAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:16:01.067Z"
+              "WhenOpened": "2024-09-30T07:16:01.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "MissionePrelievo.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\MissionePrelievo.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\MissionePrelievo.cs",
@@ -341,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "Logout.razor",
               "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Logout.razor",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Logout.razor",
@@ -353,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "AccountService.cs",
               "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\AccountService.cs",
@@ -365,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "MaterialeController.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MaterialeController.cs",
               "RelativeDocumentMoniker": "Controllers\\MaterialeController.cs",
@@ -377,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "App.razor",
               "DocumentMoniker": "D:\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\App.razor",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\App.razor",
@@ -389,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Materiale.cs",
               "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\My Web Sites\\MagazziniMaterialiCLient\\Models\\Materiale.cs",
               "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\My Web Sites\\MagazziniMaterialiCLient\\Models\\Materiale.cs",
@@ -399,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\My Web Sites\\MagazziniMaterialiCLient\\Pages\\Materiali\\Index.razor",
               "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\My Web Sites\\MagazziniMaterialiCLient\\Pages\\Materiali\\Index.razor",
@@ -409,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MaterialeRepository.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\MaterialeRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MaterialeRepository.cs",
@@ -421,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Materiale.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Materiale.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\Materiale.cs",
@@ -433,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -445,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Create.razor",
               "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\My Web Sites\\MagazziniMaterialiCLient\\Pages\\Magazzini\\Create.razor",
               "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\My Web Sites\\MagazziniMaterialiCLient\\Pages\\Magazzini\\Create.razor",
@@ -455,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "MaterialeMapper.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Mapper\\MaterialeMapper.cs",
               "RelativeDocumentMoniker": "Mapper\\MaterialeMapper.cs",
@@ -467,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "MaterialeDTO.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\MaterialeDTO.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\DTOs\\MaterialeDTO.cs",
@@ -479,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "MaterialeImmagineDTO.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\MaterialeImmagineDTO.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\DTOs\\MaterialeImmagineDTO.cs",
@@ -491,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ClassificazioneDTO.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\ClassificazioneDTO.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\DTOs\\ClassificazioneDTO.cs",
@@ -503,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Classificazione.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Classificazione.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\Classificazione.cs",
@@ -515,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Giacenza.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Giacenza.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\Giacenza.cs",
@@ -527,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "MaterialeImmagine.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\MaterialeImmagine.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\MaterialeImmagine.cs",
@@ -539,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "MaterialiService.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\MaterialiService.cs",
               "RelativeDocumentMoniker": "Services\\MaterialiService.cs",
@@ -551,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Magazzino.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Magazzino.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\Magazzino.cs",
@@ -563,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "MaterialeMagazzino.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\MaterialeMagazzino.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\MaterialeMagazzino.cs",
@@ -575,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Movimentazione.cs",
               "DocumentMoniker": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Movimentazione.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\Movimentazione.cs",

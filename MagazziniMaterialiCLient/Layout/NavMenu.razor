@@ -1,4 +1,7 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@inject AuthenticationStateProvider AuthenticationStateProvider
+@using Microsoft.AspNetCore.Components.Authorization
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">Gestione Magazzini e Materiali</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -9,31 +12,84 @@
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="magazzini">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Magazzini
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="materiali">
-                <span class="oi oi-box" aria-hidden="true"></span> Materiali
-            </NavLink>
-        </div>
+        @if (isLoggedIn)
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    <span class="oi oi-home" aria-hidden="true"></span> Home
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="magazzini">
+                    <span class="oi oi-list-rich" aria-hidden="true"></span> Magazzini
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="materiali">
+                    <span class="oi oi-box" aria-hidden="true"></span> Materiali
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="registra-operatore">
+                    <span class="oi oi-box" aria-hidden="true"></span> Registra Operatore
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="assegna-ruolo">
+                    <span class="oi oi-box" aria-hidden="true"></span> Assegna Ruolo
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <button @onclick="Logout" class="nav-link btn btn-link">Logout</button>
+            </div>
+
+        }
+        else
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="login">
+                    <span class="oi oi-account-login" aria-hidden="true"></span> Login
+                </NavLink>
+            </div>
+        }
     </nav>
 </div>
 
 @code {
     private bool collapseNavMenu = true;
+    private bool isLoggedIn = false;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        isLoggedIn = authState.User.Identity != null && authState.User.Identity.IsAuthenticated;
+
+        // Sottoscrizione all'evento di cambiamento dello stato di autenticazione
+        AuthenticationStateProvider.AuthenticationStateChanged += UpdateLoginState;
+    }
+
+    private void UpdateLoginState(Task<AuthenticationState> task)
+    {
+        task.ContinueWith(async t =>
+        {
+            var authState = await t;
+            isLoggedIn = authState.User.Identity != null && authState.User.Identity.IsAuthenticated;
+            await InvokeAsync(StateHasChanged); // Forza l'aggiornamento della UI
+        });
+    }
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    private async Task Logout()
+    {
+        // Logica di logout, per esempio tramite chiamata API
+        isLoggedIn = false;
+        StateHasChanged(); // Aggiorna manualmente l'interfaccia utente
+
     }
 }

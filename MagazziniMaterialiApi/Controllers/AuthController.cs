@@ -1,8 +1,10 @@
 ﻿using MagazziniMaterialiAPI.Models;
 using MagazziniMaterialiAPI.Models.Entity.DTOs;
+using MagazziniMaterialiAPI.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 using System.IdentityModel.Tokens.Jwt;
@@ -18,12 +20,14 @@ namespace MagazziniMaterialiAPI.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
+        private readonly IUserService _userService;
 
-        public AccountController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration)
+        public AccountController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration, IUserService userService)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _configuration = configuration;
+            _userService = userService;
         }
 
         [HttpPost("registra-operatore")]
@@ -121,5 +125,28 @@ namespace MagazziniMaterialiAPI.Controllers
 
             return BadRequest(result.Errors);
         }
+
+        [HttpGet("get-users")]
+        public async Task<IActionResult> GetUsers()
+        {
+            var users = await _userManager.Users.ToListAsync();
+            var userDtos = new List<UserDto>();
+
+            foreach (var user in users)
+            {
+                var roles = await _userManager.GetRolesAsync(user);
+                userDtos.Add(new UserDto
+                {
+                    Id = user.Id,
+                    UserName = user.UserName,
+                    Email = user.Email,
+                    Roles = roles.ToList()
+                });
+            }
+
+            return Ok(userDtos);
+        }
+
+
     }
 }

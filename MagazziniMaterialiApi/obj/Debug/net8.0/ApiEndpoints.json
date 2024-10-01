@@ -49,6 +49,16 @@
   },
   {
     "ContainingType": "MagazziniMaterialiAPI.Controllers.AccountController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Account/get-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MagazziniMaterialiAPI.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/login",
     "HttpMethod": "POST",

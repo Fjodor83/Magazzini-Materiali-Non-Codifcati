@@ -24,6 +24,9 @@ builder.Services.AddScoped<MissionePrelievoService>();
 builder.Services.AddScoped<IGiacenzaRepository, GiacenzaRepository>();
 builder.Services.AddScoped<IMovimentazioneRepository, MovimentazioneRepository>();
 builder.Services.AddControllers();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+
 
 builder.Services.AddScoped<IMagazziniService, MagazziniService>();
 builder.Services.AddScoped<IMagazzinoMapper, MagazzinoMapper>();

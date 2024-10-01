@@ -1,0 +1,48 @@
+﻿@page "/users"
+@using MagazziniMaterialiCLient.Models.Entity.DTOs
+@using MagazziniMaterialiCLient.Services
+@inject UserService UserService
+
+<h3>Elenco degli Utenti</h3>
+
+@if (users == null)
+{
+    <p>Caricamento utenti...</p>
+}
+else if (users.Count == 0)
+{
+    <p>Nessun utente registrato.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID Utente</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Ruoli</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in users)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td>@string.Join(", ", user.Roles)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<UserDto> users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await UserService.GetUsersAsync();
+    }
+}

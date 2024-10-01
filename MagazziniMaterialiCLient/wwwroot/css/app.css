@@ -23,7 +23,6 @@ a, .btn-link {
     background-image: url('/images/Gessi.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px; /* Altezza del tuo header */
     display: flex;
     justify-content: center;
     align-items: center;

@@ -11,6 +11,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddScoped<MaterialeService>();
 builder.Services.AddScoped<MagazzinoService>();
 builder.Services.AddScoped<AccountService>();
+builder.Services.AddScoped<UserService>();
 
 builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddAuthorizationCore();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DeLtT05TLbE=",
+  "dgSpecHash": "/3K+ou6GArc=",
   "success": true,
-  "projectFilePath": "D:\\My Web Sites\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\MagazziniMaterialiAPI.csproj",
+  "projectFilePath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\MagazziniMaterialiAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fjodo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\fjodo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

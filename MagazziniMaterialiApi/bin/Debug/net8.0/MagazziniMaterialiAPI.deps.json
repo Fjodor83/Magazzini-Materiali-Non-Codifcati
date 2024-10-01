@@ -2356,7 +2356,10 @@
           "iTextSharp": "5.5.13.4"
         },
         "runtime": {
-          "MagazziniMaterialiCLient.dll": {}
+          "MagazziniMaterialiCLient.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

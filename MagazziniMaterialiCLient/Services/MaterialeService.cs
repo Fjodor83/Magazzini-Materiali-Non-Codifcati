@@ -35,9 +35,9 @@ namespace MagazziniMaterialiCLient.Services
             return await _httpClient.PostAsJsonAsync("api/materiale", materiale);
         }
 
-        public async Task<HttpResponseMessage> EditMateriale(int id, MaterialeDTO materiale)
+        public async Task<HttpResponseMessage> EditMateriale(string codiceMateriale, MaterialeDTO materiale)
         {
-            return await _httpClient.PutAsJsonAsync($"api/materiale/{id}", materiale);
+            return await _httpClient.PutAsJsonAsync($"api/materiale/{codiceMateriale}", materiale);
         }
 
         public async Task<HttpResponseMessage> DeleteMateriale(int id)

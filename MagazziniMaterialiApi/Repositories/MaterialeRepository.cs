@@ -45,17 +45,29 @@ namespace MagazziniMaterialiAPI.Repositories
 
         public bool EditMateriale(string codiceMateriale, Materiale materiale)
         {
+            
             var existingEntity = _context.Materiali.FirstOrDefault(m => m.CodiceMateriale == codiceMateriale);
+
+           
             if (existingEntity == null)
             {
                 return false;
             }
 
-            _context.Entry(existingEntity).State = EntityState.Detached;
-            _context.Attach(materiale);
-            _context.Entry(materiale).State = EntityState.Modified;
+            // Aggiorna le proprietà dell'entità esistente con i valori dell'entità 'materiale' ricevuta
+            existingEntity.CodiceMateriale = materiale.CodiceMateriale;
+            existingEntity.Descrizione = materiale.Descrizione;
+            existingEntity.Note = materiale.Note;
+            existingEntity.DataCreazione = materiale.DataCreazione;
+
+           
+
+            // Salva i cambiamenti nel database
+            _context.SaveChanges();
+
             return true;
         }
+
 
         public bool ExistsByCodice(string codiceMateriale)
         {

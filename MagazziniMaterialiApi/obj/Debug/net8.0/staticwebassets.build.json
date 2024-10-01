@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FTcj00Oar7NmvFDKohAz6Dbns/tskje+VZL1R0SZmak=",
+  "Hash": "u9c4JrcBb5/JHpnHgfNlPpCGyj6qr6C0sLFRN7OOBm0=",
   "Source": "MagazziniMaterialiAPI",
   "BasePath": "_content/MagazziniMaterialiAPI",
   "Mode": "Default",
@@ -8710,6 +8710,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\images\\Gessi.jpg",
+      "SourceId": "MagazziniMaterialiCLient",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/Gessi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Gessi.jpg"
     },
     {
       "Identity": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\index.html",

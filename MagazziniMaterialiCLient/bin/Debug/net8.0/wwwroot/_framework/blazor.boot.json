@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MagazziniMaterialiCLient",
   "resources": {
-    "hash": "sha256-TSxpiZHYPnJ7L8pou04jGnWkSU9n+RhKFLL+C4rjSh4=",
+    "hash": "sha256-9FtaRrhHIsQRixEwDEddj/kiBCG/egITRnHvskqLffg=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.93i67mqfmb.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -228,10 +228,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "MagazziniMaterialiCLient.wasm": "sha256-dIaX8hbMa7Qn8dRlBkTsVK/fMK9xgzVi0xv3rTT2zuc="
+      "MagazziniMaterialiCLient.wasm": "sha256-aHIPGCd4uNw18cQpKzsnexkmWYfNTQ09/jVYcdpbejs="
     },
     "pdb": {
-      "MagazziniMaterialiCLient.pdb": "sha256-fxVcb4uhfay0SARoSbYCGnLWJ+oc3MLieBkbbW/c/kc="
+      "MagazziniMaterialiCLient.pdb": "sha256-2lyfSebMDhklvKrbXrDhUIjzaJ9nTeId+IPbDXDP88s="
     }
   },
   "cacheBootResources": true,

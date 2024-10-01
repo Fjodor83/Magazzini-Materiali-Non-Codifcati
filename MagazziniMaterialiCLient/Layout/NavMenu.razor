@@ -1,17 +1,10 @@
-﻿@inject AuthenticationStateProvider AuthenticationStateProvider
+﻿@inject IJSRuntime js
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
 @using Microsoft.AspNetCore.Components.Authorization
 
-<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">Gestione Magazzini e Materiali</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
-
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
+<div class="@NavMenuCssClass navbar-container" @onclick="ToggleNavMenu">
+    <nav class="flex-column nav-links">
         @if (isLoggedIn)
         {
             <div class="nav-item px-3">
@@ -39,10 +32,15 @@
                     <span class="oi oi-box" aria-hidden="true"></span> Assegna Ruolo
                 </NavLink>
             </div>
-
         }
-       
     </nav>
+
+    <!-- Link di Logout posizionato in fondo -->
+    <div class="nav-item px-3 logout-link">
+        <NavLink class="nav-link" href="logout" @onclick="ConfirmLogout">
+            <span class="oi oi-account-logout" aria-hidden="true"></span> Logout
+        </NavLink>
+    </div>
 </div>
 
 @code {
@@ -56,7 +54,6 @@
         var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
         isLoggedIn = authState.User.Identity != null && authState.User.Identity.IsAuthenticated;
 
-        // Sottoscrizione all'evento di cambiamento dello stato di autenticazione
         AuthenticationStateProvider.AuthenticationStateChanged += UpdateLoginState;
     }
 
@@ -66,7 +63,7 @@
         {
             var authState = await t;
             isLoggedIn = authState.User.Identity != null && authState.User.Identity.IsAuthenticated;
-            await InvokeAsync(StateHasChanged); // Forza l'aggiornamento della UI
+            await InvokeAsync(StateHasChanged);
         });
     }
 
@@ -75,4 +72,12 @@
         collapseNavMenu = !collapseNavMenu;
     }
 
+    private async Task ConfirmLogout()
+    {
+        bool confirmed = await js.InvokeAsync<bool>("confirm", "Sei sicuro di voler uscire?");
+        if (confirmed)
+        {
+            NavigationManager.NavigateTo("logout");
+        }
+    }
 }

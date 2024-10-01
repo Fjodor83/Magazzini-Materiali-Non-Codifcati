@@ -1168,7 +1168,6 @@ D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiAp
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.pdb
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.genruntimeconfig.cache
 D:\My Web Sites\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\ref\MagazziniMaterialiAPI.dll
-C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.pdb
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\MagazziniMaterialiCLient.staticwebassets.runtime.json
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\appsettings.json
@@ -1460,5 +1459,6 @@ C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tiroc
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\Magazzin.038C5F61.Up2Date
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.dll
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\refint\MagazziniMaterialiAPI.dll
+C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.pdb
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.genruntimeconfig.cache
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\ref\MagazziniMaterialiAPI.dll

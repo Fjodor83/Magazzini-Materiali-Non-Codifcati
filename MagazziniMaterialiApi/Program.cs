@@ -123,6 +123,11 @@ async Task CreateAdminRoleAndUser(RoleManager<IdentityRole> roleManager, UserMan
     {
         await roleManager.CreateAsync(new IdentityRole("Admin"));
     }
+    // Crea il ruolo Operatore se non esiste
+    if (!await roleManager.RoleExistsAsync("Operatore"))
+    {
+        await roleManager.CreateAsync(new IdentityRole("Operatore"));
+    }
 
     // Controlla se esiste già un utente Admin
     var adminUser = await userManager.FindByEmailAsync("admin@example.com");

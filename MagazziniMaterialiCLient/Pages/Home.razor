@@ -6,125 +6,150 @@
 @using System.Security.Claims
 @using Microsoft.AspNetCore.Components.Authorization
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="/"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <AuthorizeView>
-                    <Authorized>
-                        <li class="nav-item">
-                            @* Recupera l'email dall'identity claim *@
-                            <span class="nav-link">Hello, @context.User.FindFirst(ClaimTypes.Email)?.Value!</span>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/logout">Logout</a>
-                        </li>
-                    </Authorized>
-                    <NotAuthorized>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/login">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/registra-operatore">Register</a>
-                        </li>
-                    </NotAuthorized>
-                </AuthorizeView>
-            </ul>
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="/">Magazzini Materiali</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <AuthorizeView>
+                        <Authorized>
+                            <li class="nav-item">
+                                <span class="nav-link">@context.User.FindFirst(ClaimTypes.Email)?.Value</span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/logout">Logout</a>
+                            </li>
+                        </Authorized>
+                        <NotAuthorized>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/registra-operatore">Register</a>
+                            </li>
+                        </NotAuthorized>
+                    </AuthorizeView>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+    <div class="container">
+        <AuthorizeView>
+            <Authorized>
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">Dashboard Magazzini e Materiali</h2>
+                                <p class="card-text">Benvenuto, @context.User.FindFirst(ClaimTypes.Email)?.Value! Gestisci i tuoi magazzini e materiali da qui.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Magazzini</h3>
+                                @if (magazzini == null)
+                                {
+                                    <p><em>Caricamento magazzini...</em></p>
+                                }
+                                else if (!magazzini.Any())
+                                {
+                                    <p>Nessun magazzino trovato.</p>
+                                }
+                                else
+                                {
+                                    <div class="list-group">
+                                        @foreach (var magazzino in magazzini)
+                                        {
+                                            <div class="list-group-item list-group-item-action">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <h5 class="mb-1">@magazzino.NomeMagazzino</h5>
+                                                    <small>@magazzino.CodiceMagazzino</small>
+                                                </div>
+                                                <div class="mt-2">
+                                                    <button class="btn btn-sm btn-outline-info" @onclick="() => NavigateToMagazzinoDetails(magazzino.Id)">Dettagli</button>
+                                                    <button class="btn btn-sm btn-outline-primary" @onclick="() => NavigateToMagazzinoEdit(magazzino.Id)">Modifica</button>
+                                                    <button class="btn btn-sm btn-outline-success" @onclick="() => NavigateToRegisterMateriale(magazzino.Id)">Registra Materiale</button>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                }
+                                <button class="btn btn-primary mt-3" @onclick="NavigateToCreateMagazzino">Crea Nuovo Magazzino</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Materiali</h3>
+                                @if (materiali == null)
+                                {
+                                    <p><em>Caricamento materiali...</em></p>
+                                }
+                                else if (!materiali.Any())
+                                {
+                                    <p>Nessun materiale trovato.</p>
+                                }
+                                else
+                                {
+                                    <div class="row">
+                                        @foreach (var materiale in materiali)
+                                        {
+                                            <div class="col-md-6 mb-3">
+                                                <div class="card h-100">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">@materiale.Descrizione</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">@materiale.CodiceMateriale</h6>
+                                                        @if (materiale.Immagini != null && materiale.Immagini.Any(i => i.IsPrincipale))
+                                                        {
+                                                            var qrCode = materiale.Immagini.First(i => i.IsPrincipale);
+                                                            <img src="data:image/png;base64,@qrCode.QRCodeData" alt="QR Code" class="img-fluid mb-2" style="max-width: 100px;" />
+                                                        }
+                                                        <div class="mt-2">
+                                                            <button class="btn btn-sm btn-outline-info" @onclick="() => NavigateToMaterialeDetails(materiale.CodiceMateriale)">Dettagli</button>
+                                                            <button class="btn btn-sm btn-outline-primary" @onclick="() => NavigateToMaterialeEdit(materiale.CodiceMateriale)">Modifica</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                }
+                                <button class="btn btn-primary mt-3" @onclick="NavigateToCreateMateriale">Crea Nuovo Materiale</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Authorized>
+            <NotAuthorized>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h2 class="card-title">Benvenuto in Magazzini Materiali</h2>
+                                <p class="card-text">Accedi o registrati per gestire i tuoi magazzini e materiali.</p>
+                                <div class="mt-4">
+                                    <a href="/login" class="btn btn-primary me-2">Login</a>
+                                    <a href="/registra-operatore" class="btn btn-secondary">Registrati</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </NotAuthorized>
+        </AuthorizeView>
     </div>
-</nav>
-
-<div class="container">
-    <h1>Dashboard Magazzini e Materiali</h1>
-
-    <AuthorizeView>
-        <Authorized>
-            <div class="alert alert-success" role="alert">
-                @* Usa il claim per mostrare l'email invece del nome *@
-                <h4>Benvenuto @context.User.FindFirst(ClaimTypes.Email)?.Value!</h4>
-                <p>Hai effettuato l'accesso con successo.</p>
-                <p><strong>Email:</strong> @context.User.FindFirst(ClaimTypes.Email)?.Value</p>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <h2>Magazzini</h2>
-                    @if (magazzini == null)
-                    {
-                        <p><em>Caricamento magazzini...</em></p>
-                    }
-                    else if (!magazzini.Any())
-                    {
-                        <p>Nessun magazzino trovato.</p>
-                    }
-                    else
-                    {
-                        <div class="list-group">
-                            @foreach (var magazzino in magazzini)
-                            {
-                                <div class="list-group-item">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">@magazzino.NomeMagazzino</h5>
-                                    </div>
-                                    <p class="mb-1">@magazzino.CodiceMagazzino</p>
-                                    <button class="btn btn-sm btn-info" @onclick="() => NavigateToMagazzinoDetails(magazzino.Id)">Dettagli</button>
-                                    <button class="btn btn-sm btn-primary" @onclick="() => NavigateToMagazzinoEdit(magazzino.Id)">Modifica</button>
-                                    <button class="btn btn-sm btn-success" @onclick="() => NavigateToRegisterMateriale(magazzino.Id)">Registra Materiale</button>
-                                </div>
-                            }
-                        </div>
-                    }
-                    <button class="btn btn-primary mt-3" @onclick="NavigateToCreateMagazzino">Crea Nuovo Magazzino</button>
-                </div>
-
-                <div class="col-md-6">
-                    <h2>Materiali</h2>
-                    @if (materiali == null)
-                    {
-                        <p><em>Caricamento materiali...</em></p>
-                    }
-                    else if (!materiali.Any())
-                    {
-                        <p>Nessun materiale trovato.</p>
-                    }
-                    else
-                    {
-                        <div class="row">
-                            @foreach (var materiale in materiali)
-                            {
-                                <div class="col-md-6 mb-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">@materiale.Descrizione</h5>
-                                            <h6 class="card-subtitle mb-2 text-muted">Codice: @materiale.CodiceMateriale</h6>
-                                            <p class="card-text">@materiale.Descrizione</p>
-                                            @if (materiale.Immagini != null && materiale.Immagini.Any(i => i.IsPrincipale))
-                                            {
-                                                var qrCode = materiale.Immagini.First(i => i.IsPrincipale);
-                                                <img src="data:image/png;base64,@qrCode.QRCodeData" alt="QR Code" class="img-fluid mb-2" style="max-width: 150px;" />
-                                            }
-                                            <button class="btn btn-info btn-sm" @onclick="() => NavigateToMaterialeDetails(materiale.CodiceMateriale)">Dettagli</button>
-                                            <button class="btn btn-primary btn-sm" @onclick="() => NavigateToMaterialeEdit(materiale.CodiceMateriale)">Modifica</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            }
-                        </div>
-                    }
-                    <button class="btn btn-primary mt-3" @onclick="NavigateToCreateMateriale">Crea Nuovo Materiale</button>
-                </div>
-            </div>
-        </Authorized>
-        <NotAuthorized>
-            <div class="alert alert-warning" role="alert">
-                <h4>Benvenuto!</h4>
-                <p>Per favore effetua <a href="/login">Login</a> oppure <a href="/registra-operatore">Registrati</a> per visualizzare i magazzini e i materiali.</p>
-            </div>
-        </NotAuthorized>
-    </AuthorizeView>
 </div>
 
 @code {
@@ -133,8 +158,14 @@
 
     protected override async Task OnInitializedAsync()
     {
-        await LoadMagazzini();
-        await LoadMateriali();
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            await LoadMagazzini();
+            await LoadMateriali();
+        }
     }
 
     private async Task LoadMagazzini()

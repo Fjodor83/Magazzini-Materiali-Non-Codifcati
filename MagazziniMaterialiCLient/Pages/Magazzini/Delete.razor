@@ -1,7 +1,9 @@
 ﻿@page "/magazzini/delete/{Id:int}"
 @using MagazziniMaterialiCLient.Models.Entity.DTOs
+@using Microsoft.AspNetCore.Authorization
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
+@attribute [Authorize(Roles = "Admin")]
 
 <h3>Elimina Magazzino</h3>
 

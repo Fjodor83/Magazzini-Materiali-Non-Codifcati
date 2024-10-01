@@ -1,7 +1,10 @@
 ﻿@page "/materiale/delete/{CodiceMateriale}"
 @using MagazziniMaterialiCLient.Models.Entity.DTOs
+@using Microsoft.AspNetCore.Authorization
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
+@attribute [Authorize(Roles = "Admin")]
+
 <h3>Elimina Materiale</h3>
 
 @if (materiale == null)

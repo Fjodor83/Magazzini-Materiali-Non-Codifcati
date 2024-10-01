@@ -1,7 +1,9 @@
 ﻿@page "/assegna-ruolo"
 @using MagazziniMaterialiCLient.Models
 @using MagazziniMaterialiCLient.Services
+@using Microsoft.AspNetCore.Authorization
 @inject AccountService AccountService
+@attribute [Authorize(Roles = "Admin")]
 
 <h3>Assegna Ruolo</h3>
 

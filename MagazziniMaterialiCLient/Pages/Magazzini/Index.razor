@@ -2,48 +2,107 @@
 @using MagazziniMaterialiCLient.Models.Entity.DTOs
 @using MagazziniMaterialiCLient.Services
 @inject MagazzinoService MagazzinoService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
 
-<h3>Magazzini</h3>
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Gestione Magazzini</h2>
+        <button class="btn btn-success" @onclick="NavigateToCreateMagazzino">
+            <i class="fas fa-plus"></i> Nuovo Magazzino
+        </button>
+    </div>
 
-@if (magazzini == null)
-{
-    <p>Caricamento in corso...</p>
-}
-else
-{
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>Nome</th>
-            <th>Codice</th>
-            <th>Descrizione</th>
-            <th>Note</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var magazzino in magazzini)
-        {
-            <tr>
-                <td>@magazzino.NomeMagazzino</td>
-                <td>@magazzino.CodiceMagazzino</td>
-                <td>@magazzino.DescrizioneMagazzino</td>
-                <td>@magazzino.Note</td>
-                <td>
-                    <a href="/magazzini/edit/@magazzino.Id" class="btn btn-primary">Modifica</a>
-                    <a href="/magazzini/delete/@magazzino.Id" class="btn btn-danger">Elimina</a>
-                    <a href="/magazzini/materiali/@magazzino.Id" class="btn btn-info">Materiali</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-}
+    @if (magazzini == null)
+    {
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Caricamento in corso...</span>
+            </div>
+        </div>
+    }
+    else if (!magazzini.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            Non ci sono magazzini disponibili. Clicca su "Nuovo Magazzino" per aggiungerne uno.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Codice</th>
+                        <th>Descrizione</th>
+                        <th>Note</th>
+                        <th>Azioni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var magazzino in magazzini)
+                    {
+                        <tr>
+                            <td>@magazzino.NomeMagazzino</td>
+                            <td>@magazzino.CodiceMagazzino</td>
+                            <td>@(string.IsNullOrEmpty(magazzino.DescrizioneMagazzino) ? "-" : magazzino.DescrizioneMagazzino)</td>
+                            <td>@(string.IsNullOrEmpty(magazzino.Note) ? "-" : magazzino.Note)</td>
+                            <td>
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-outline-primary btn-sm" @onclick="() => NavigateToEditMagazzino(magazzino.Id)">
+                                        <i class="fas fa-edit"></i> Modifica
+                                    </button>
+                                    <button class="btn btn-outline-danger btn-sm" @onclick="() => DeleteMagazzino(magazzino.Id)">
+                                        <i class="fas fa-trash-alt"></i> Elimina
+                                    </button>
+                                    <button class="btn btn-outline-info btn-sm" @onclick="() => NavigateToMateriali(magazzino.Id)">
+                                        <i class="fas fa-box"></i> Materiali
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
 @code {
     private List<MagazzinoDTO> magazzini;
 
     protected override async Task OnInitializedAsync()
     {
+        await LoadMagazzini();
+    }
+
+    private async Task LoadMagazzini()
+    {
         magazzini = await MagazzinoService.GetMagazziniAsync();
+    }
+
+    private void NavigateToCreateMagazzino()
+    {
+        NavigationManager.NavigateTo("/magazzini/create");
+    }
+
+    private void NavigateToEditMagazzino(int id)
+    {
+        NavigationManager.NavigateTo($"/magazzini/edit/{id}");
+    }
+
+    private async Task DeleteMagazzino(int id)
+    {
+        bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", "Sei sicuro di voler eliminare questo magazzino?");
+        if (confirmed)
+        {
+            await MagazzinoService.DeleteMagazzinoAsync(id);
+            await LoadMagazzini();
+        }
+    }
+
+    private void NavigateToMateriali(int id)
+    {
+        NavigationManager.NavigateTo($"/magazzini/materiali/{id}");
     }
 }

@@ -2,63 +2,87 @@
 @using MagazziniMaterialiCLient.Models.Entity.DTOs
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
 
-<h3>Lista Materiali</h3>
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Gestione Materiali</h2>
+        <button class="btn btn-success" @onclick="NavigateToCreateMateriale">
+            <i class="fas fa-plus"></i> Nuovo Materiale
+        </button>
+    </div>
 
-<div class="mb-3">
-    <a href="/materiale/create" class="btn btn-primary">Crea Nuovo Materiale</a>
-</div>
-
-@if (materiali == null)
-{
-        <p><em>Caricamento...</em></p>
-}
-else
-{
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Codice Materiale</th>
-                    <th>Descrizione</th>
-                    <th>Note</th>
-                   
-                    <th>QR Code</th>
-                    <th>Azioni</th>
-                </tr>
-            </thead>
-            <tbody>
-            @foreach (var materiale in materiali)
-            {
+    @if (materiali == null)
+    {
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Caricamento in corso...</span>
+            </div>
+        </div>
+    }
+    else if (!materiali.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            Non ci sono materiali disponibili. Clicca su "Nuovo Materiale" per aggiungerne uno.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Codice Materiale</th>
+                        <th>Descrizione</th>
+                        <th>Note</th>
+                        <th>QR Code</th>
+                        <th>Azioni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var materiale in materiali)
+                    {
                         <tr>
                             <td>@materiale.CodiceMateriale</td>
                             <td>@materiale.Descrizione</td>
-                            <td>@materiale.Note</td>
-                            
-                            
+                            <td>@(string.IsNullOrEmpty(materiale.Note) ? "-" : materiale.Note)</td>
                             <td>
-                        @if (HasQRCode(materiale))
-                        {
-                           <img src="data:image/png;base64,@GetQRCode(materiale)" alt="QR Code" class="img-fluid mb-2" style="max-width: 100px;" />
-                        }
-                        else
-                        {
-                           <span>Nessun QR Code</span>
-                        }
+                                @if (HasQRCode(materiale))
+                                {
+                                    <img src="data:image/png;base64,@GetQRCode(materiale)" alt="QR Code" class="img-thumbnail" style="max-width: 100px;" @onclick="() => ShowQRCodeModal(materiale)" />
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Nessun QR Code</span>
+                                }
                             </td>
                             <td>
-                                <a href="/materiale/edit/@materiale.CodiceMateriale" class="btn btn-primary">Modifica</a>
-                                <a href="/materiale/delete/@materiale.CodiceMateriale" class="btn btn-danger">Elimina</a>
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-outline-primary btn-sm" @onclick="() => NavigateToEditMateriale(materiale.CodiceMateriale)">
+                                        <i class="fas fa-edit"></i> Modifica
+                                    </button>
+                                    <button class="btn btn-outline-danger btn-sm" @onclick="() => DeleteMateriale(materiale.CodiceMateriale)">
+                                        <i class="fas fa-trash-alt"></i> Elimina
+                                    </button>
+                                </div>
                             </td>
                         </tr>
-            }
-            </tbody>
-        </table>
-}
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
 
 @code {
     private List<MaterialeDTO> materiali;
 
     protected override async Task OnInitializedAsync()
+    {
+        await LoadMateriali();
+    }
+
+    private async Task LoadMateriali()
     {
         materiali = await HttpClient.GetFromJsonAsync<List<MaterialeDTO>>("api/materiale");
     }
@@ -72,5 +96,33 @@ else
     {
         var qrCode = materiale.Immagini.FirstOrDefault(i => i.IsPrincipale);
         return qrCode?.QRCodeData;
+    }
+
+    private void NavigateToCreateMateriale()
+    {
+        NavigationManager.NavigateTo("/materiale/create");
+    }
+
+    private void NavigateToEditMateriale(string codiceMateriale)
+    {
+        NavigationManager.NavigateTo($"/materiale/edit/{codiceMateriale}");
+    }
+
+    private async Task DeleteMateriale(string codiceMateriale)
+    {
+        bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", "Sei sicuro di voler eliminare questo materiale?");
+        if (confirmed)
+        {
+            await HttpClient.DeleteAsync($"api/materiale/{codiceMateriale}");
+            await LoadMateriali();
+        }
+    }
+
+    private async Task ShowQRCodeModal(MaterialeDTO materiale)
+    {
+        if (HasQRCode(materiale))
+        {
+            await JSRuntime.InvokeVoidAsync("showQRCodeModal", materiale.CodiceMateriale, GetQRCode(materiale));
+        }
     }
 }

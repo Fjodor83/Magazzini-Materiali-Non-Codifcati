@@ -1,9 +1,10 @@
 ﻿@page "/materiale/create"
 @using MagazziniMaterialiCLient.Models.Entity
 @using MagazziniMaterialiCLient.Models.Entity.DTOs
+@using Microsoft.AspNetCore.Authorization
 @inject HttpClient Http
 @inject NavigationManager Navigation
-
+@attribute [Authorize(Roles = "Admin")]
 <h3>Crea un Nuovo Materiale</h3>
 
 <EditForm Model="nuovoMateriale" OnValidSubmit="HandleValidSubmit">

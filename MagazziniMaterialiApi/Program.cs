@@ -16,7 +16,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Aggiungi  servizi
+// Aggiungi servizi
 builder.Services.AddScoped<EtichettaService>();
 builder.Services.AddScoped<IMaterialeRepository, MaterialeRepository>();
 builder.Services.AddScoped<MovimentazioneService>();
@@ -33,19 +33,11 @@ builder.Services.AddScoped<IMaterialiService, MaterialiService>();
 builder.Services.AddScoped<IMaterialeMapper, MaterialeMapper>();
 builder.Services.AddScoped<IMaterialeRepository, MaterialeRepository>();
 
-
 builder.Services.AddScoped<IMaterialeMagazziniService, MaterialeMagazziniService>();
 builder.Services.AddScoped<IMaterialeMagazzinoRepository, MaterialeMagazzinoRepository>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-/*builder.Services.AddControllers()
-    .AddNewtonsoftJson(options =>
-    {
-        options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
-    });
-*/
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Configura Identity e JWT
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
@@ -111,4 +103,43 @@ app.UseAuthorization();
 app.UseCors("AllowAll");
 
 app.MapControllers();
+
+// Chiama il metodo per creare il ruolo Admin e l'utente Admin
+using (var scope = app.Services.CreateScope())
+{
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+    // Crea ruolo Admin e utente Admin se non esistono
+    await CreateAdminRoleAndUser(roleManager, userManager);
+}
+
 app.Run();
+
+async Task CreateAdminRoleAndUser(RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager)
+{
+    // Crea il ruolo Admin se non esiste
+    if (!await roleManager.RoleExistsAsync("Admin"))
+    {
+        await roleManager.CreateAsync(new IdentityRole("Admin"));
+    }
+
+    // Controlla se esiste già un utente Admin
+    var adminUser = await userManager.FindByEmailAsync("admin@example.com");
+    if (adminUser == null)
+    {
+        var admin = new IdentityUser
+        {
+            UserName = "admin@example.com",
+            Email = "admin@example.com",
+            EmailConfirmed = true
+        };
+
+        var result = await userManager.CreateAsync(admin, "Admin@123");
+
+        if (result.Succeeded)
+        {
+            await userManager.AddToRoleAsync(admin, "Admin");
+        }
+    }
+}

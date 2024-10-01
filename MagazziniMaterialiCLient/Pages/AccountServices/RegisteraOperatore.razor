@@ -2,8 +2,10 @@
 
 @using MagazziniMaterialiCLient.Models.Entity.DTOs
 @using MagazziniMaterialiCLient.Services
+@using Microsoft.AspNetCore.Authorization
 @inject AccountService AccountService
 @inject NavigationManager NavigationManager
+@attribute [Authorize(Roles = "Admin")]
 
 <h3>Registra Operatore</h3>
 

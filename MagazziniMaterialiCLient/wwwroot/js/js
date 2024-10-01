@@ -1,0 +1,26 @@
+﻿function showQRCodeModal(codiceMateriale, qrCodeData) {
+    // Rimuovi eventuali modal esistenti
+    const existingModal = document.getElementById('qrCodeModal');
+    if (existingModal) {
+        existingModal.remove();
+    }
+
+    // Crea il modal
+    const modal = document.createElement('div');
+    modal.id = 'qrCodeModal';
+    modal.className = 'modal fade';
+    modal.innerHTML = `
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">QR Code per ${codiceMateriale}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="data:image/png;base64,${qrCodeData}" alt="QR Code" style="max-width: 100%;">
+                </div>
+            </div>
+        </div>
+    `;
+
+    

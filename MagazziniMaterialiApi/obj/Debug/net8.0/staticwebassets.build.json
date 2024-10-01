@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FLvIA55DU1VzlBqVBn4YgOGoHqM+9FXzweR+W1B/qgI=",
+  "Hash": "FTcj00Oar7NmvFDKohAz6Dbns/tskje+VZL1R0SZmak=",
   "Source": "MagazziniMaterialiAPI",
   "BasePath": "_content/MagazziniMaterialiAPI",
   "Mode": "Default",
@@ -8729,6 +8729,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\js\\js",
+      "SourceId": "MagazziniMaterialiCLient",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\js"
     },
     {
       "Identity": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\sample-data\\weather.json",

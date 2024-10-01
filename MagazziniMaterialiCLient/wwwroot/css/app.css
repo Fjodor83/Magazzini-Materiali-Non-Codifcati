@@ -24,6 +24,7 @@ a, .btn-link {
     background-size: cover;
     background-position: center;
     display: flex;
+    height: 300px;
     justify-content: center;
     align-items: center;
     color: white;

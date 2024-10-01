@@ -1,0 +1,28 @@
+﻿@page "/help"
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+
+<h3>Richiedi le Credenziali</h3>
+
+<p>Contatta l'amministratore per avere le credenziali di accesso. Puoi inviare una mail a: <a href="mailto:admin@azienda.com">admin@azienda.com</a></p>
+
+
+
+<div class="mt-3">
+    <button class="btn btn-outline-primary" @onclick="NavigateHome">Back to Home</button>
+</div>
+
+@code {
+    private void ContactAdmin()
+    {
+        // Lancia un semplice messaggio d'avviso
+        JSRuntime.InvokeVoidAsync("alert", "Per favore contatta l'amministratore all'indirizzo admin@azienda.com per ottenere le credenziali di accesso.");
+    }
+
+    private void NavigateHome()
+    {
+        // Naviga alla home page
+        NavigationManager.NavigateTo("/");
+    }
+}
+

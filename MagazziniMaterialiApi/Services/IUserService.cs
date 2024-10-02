@@ -1,6 +1,4 @@
-﻿
-
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 
 namespace MagazziniMaterialiAPI.Services
 {
@@ -10,5 +8,7 @@ namespace MagazziniMaterialiAPI.Services
         Task<IdentityUser> GetUserByIdAsync(string id);
         Task<IdentityUser> GetUserByEmailAsync(string email);
         Task<bool> RegisterUserAsync(string email, string password, string role);
+        Task<List<string>> GetUserRolesAsync(string userId);
+        Task<bool> DeleteUserAsync(string userName);
     }
 }

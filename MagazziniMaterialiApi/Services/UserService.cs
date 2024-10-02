@@ -40,5 +40,27 @@ namespace MagazziniMaterialiAPI.Services
 
             return created;
         }
+        public async Task<List<string>> GetUserRolesAsync(string userId)
+        {
+            var user = await _userRepository.GetUserByIdAsync(userId);
+            if (user == null) return null;
+
+            return await _userRepository.GetUserRolesAsync(user);
+        }
+        public async Task<bool> DeleteUserAsync(string userName)
+        {
+            if (string.IsNullOrEmpty(userName))
+            {
+                throw new ArgumentNullException(nameof(userName));
+            }
+
+            var user = await _userRepository.GetUserByNameAsync(userName);
+            if (user == null) return false;
+
+            return await _userRepository.DeleteUserAsync(user);
+        }
+
+
+
     }
 }

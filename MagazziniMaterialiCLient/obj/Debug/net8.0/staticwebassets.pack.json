@@ -1,51 +1,51 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\obj\\Debug\\net8.0\\compressed\\txqqkxjxoh.gz",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\obj\\Debug\\net8.0\\compressed\\txqqkxjxoh.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MagazziniMaterialiCLient.styles.css",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MagazziniMaterialiCLient.styles.css",
       "PackagePath": "staticwebassets\\MagazziniMaterialiCLient.styles.css"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\images\\Gessi.jpg",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\images\\Gessi.jpg",
       "PackagePath": "staticwebassets\\images\\Gessi.jpg"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\index.html",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\js\\js",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\js\\js",
       "PackagePath": "staticwebassets\\js"
     },
     {
-      "Id": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

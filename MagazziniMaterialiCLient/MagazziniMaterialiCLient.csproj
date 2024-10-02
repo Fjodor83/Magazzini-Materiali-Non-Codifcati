@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\AccountServices\EditUser.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
     <PackageReference Include="Intersoft.Crosslight" Version="6.0.5000.975" />
     <PackageReference Include="iTextSharp" Version="5.5.13.4" />
@@ -23,6 +27,18 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\AccountServices\EditUser.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\AccountServices\EditUser.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\AccountServices\EditUser.razor" />
   </ItemGroup>
 
   

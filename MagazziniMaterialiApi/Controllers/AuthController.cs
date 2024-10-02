@@ -1,6 +1,7 @@
 ﻿using MagazziniMaterialiAPI.Models;
 using MagazziniMaterialiAPI.Models.Entity.DTOs;
 using MagazziniMaterialiAPI.Services;
+using MagazziniMaterialiCLient.Pages.AccountServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -21,13 +22,15 @@ namespace MagazziniMaterialiAPI.Controllers
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
         private readonly IUserService _userService;
+        private readonly ILogger<AccountController> _logger;
 
-        public AccountController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration, IUserService userService)
+        public AccountController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration, IUserService userService, ILogger<AccountController> logger)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _configuration = configuration;
             _userService = userService;
+            _logger = logger;
         }
 
         [HttpPost("registra-operatore")]
@@ -146,6 +149,31 @@ namespace MagazziniMaterialiAPI.Controllers
 
             return Ok(userDtos);
         }
+
+        [HttpGet("get-user-role/{userId}")]
+        public async Task<IActionResult> GetUserRoles(string userId)
+        {
+            var roles = await _userService.GetUserRolesAsync(userId);
+            if (roles == null || !roles.Any())
+            {
+                return NotFound("Ruolo utente non trovato.");
+            }
+            return Ok(roles);
+        }
+        [HttpDelete("delete/{userName}")]
+        public async Task<IActionResult> DeleteUser(string userName)
+        {
+            _logger.LogInformation($"Attempting to delete user: {userName}");
+            var result = await _userService.DeleteUserAsync(userName);
+            if (result)
+            {
+                _logger.LogInformation($"User {userName} deleted successfully");
+                return Ok();
+            }
+            _logger.LogWarning($"User {userName} not found or could not be deleted");
+            return NotFound($"User '{userName}' not found or could not be deleted.");
+        }
+
 
 
     }

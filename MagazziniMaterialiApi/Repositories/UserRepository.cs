@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,11 +10,13 @@ namespace MagazziniMaterialiAPI.Repositories
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly ILogger<UserRepository> _logger;
 
-        public UserRepository(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
+        public UserRepository(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, ILogger<UserRepository> logger)
         {
             _userManager = userManager;
             _roleManager = roleManager;
+            _logger = logger;
         }
 
         public async Task<List<IdentityUser>> GetAllUsersAsync()
@@ -46,6 +49,46 @@ namespace MagazziniMaterialiAPI.Repositories
 
             var result = await _userManager.AddToRoleAsync(user, role);
             return result.Succeeded;
+        }
+        public async Task<List<string>> GetUserRolesAsync(IdentityUser user)
+        {
+            return (await _userManager.GetRolesAsync(user)).ToList();
+        }
+        public async Task<IdentityUser> GetUserByNameAsync(string userName)
+        {
+            return await _userManager.FindByNameAsync(userName);
+        }
+        public async Task<bool> DeleteUserAsync(IdentityUser user)
+        {
+            if (user == null)
+            {
+                throw new ArgumentNullException(nameof(user));
+            }
+
+            try
+            {
+                var result = await _userManager.DeleteAsync(user);
+                if (result.Succeeded)
+                {
+                    
+                    return result.Succeeded;
+                }
+                else
+                {
+                   
+                    foreach (var error in result.Errors)
+                    {
+                        _logger.LogError($"Error deleting user: {error.Description}");
+                    }
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+             
+                _logger.LogError(ex, $"Exception occurred while deleting user {user.UserName}");
+                return false;
+            }
         }
     }
 }

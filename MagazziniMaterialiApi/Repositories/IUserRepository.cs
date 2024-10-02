@@ -11,5 +11,8 @@ namespace MagazziniMaterialiAPI.Repositories
         Task<IdentityUser> GetUserByEmailAsync(string email);
         Task<bool> CreateUserAsync(IdentityUser user, string password);
         Task<bool> AddUserToRoleAsync(IdentityUser user, string role);
+        Task<List<string>> GetUserRolesAsync(IdentityUser user);
+        Task<bool> DeleteUserAsync(IdentityUser user);
+        Task<IdentityUser> GetUserByNameAsync(string userName);
     }
 }

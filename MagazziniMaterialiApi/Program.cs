@@ -6,43 +6,45 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Aggiungi logging
+builder.Logging.ClearProviders();
+builder.Logging.AddConfiguration(builder.Configuration.GetSection("Logging"));
+builder.Logging.AddConsole();
+builder.Logging.AddDebug();
+
+// Aggiungi servizi al container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Aggiungi servizi
+// Registra i servizi e i repository
 builder.Services.AddScoped<EtichettaService>();
-builder.Services.AddScoped<IMaterialeRepository, MaterialeRepository>();
 builder.Services.AddScoped<MovimentazioneService>();
 builder.Services.AddScoped<MissionePrelievoService>();
+builder.Services.AddScoped<IMagazziniService, MagazziniService>();
+builder.Services.AddScoped<IMaterialiService, MaterialiService>();
+builder.Services.AddScoped<IMaterialeMagazziniService, MaterialeMagazziniService>();
+
+builder.Services.AddScoped<IMaterialeRepository, MaterialeRepository>();
 builder.Services.AddScoped<IGiacenzaRepository, GiacenzaRepository>();
 builder.Services.AddScoped<IMovimentazioneRepository, MovimentazioneRepository>();
-builder.Services.AddControllers();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
-
-
-builder.Services.AddScoped<IMagazziniService, MagazziniService>();
-builder.Services.AddScoped<IMagazzinoMapper, MagazzinoMapper>();
 builder.Services.AddScoped<IMagazzinoRepository, MagazzinoRepository>();
-
-builder.Services.AddScoped<IMaterialiService, MaterialiService>();
-builder.Services.AddScoped<IMaterialeMapper, MaterialeMapper>();
-builder.Services.AddScoped<IMaterialeRepository, MaterialeRepository>();
-
-builder.Services.AddScoped<IMaterialeMagazziniService, MaterialeMagazziniService>();
 builder.Services.AddScoped<IMaterialeMagazzinoRepository, MaterialeMagazzinoRepository>();
 
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IMagazzinoMapper, MagazzinoMapper>();
+builder.Services.AddScoped<IMaterialeMapper, MaterialeMapper>();
+
+// Configura il DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Configura Identity e JWT
+// Configura Identity
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
     options.Password.RequiredLength = 6;
@@ -54,6 +56,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 .AddEntityFrameworkStores<ApplicationDbContext>()
 .AddDefaultTokenProviders();
 
+// Configura l'autenticazione JWT
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -73,16 +76,14 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// Autorizzazione
+// Configura l'autorizzazione
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Admin"));
     options.AddPolicy("UserPolicy", policy => policy.RequireRole("User"));
 });
 
-// Logging e CORS
-builder.Logging.ClearProviders();
-builder.Logging.AddConsole();
+// Configura CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
@@ -101,19 +102,18 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseCors("AllowAll");
 
 app.MapControllers();
 
-// Chiama il metodo per creare il ruolo Admin e l'utente Admin
+// Crea il ruolo Admin e l'utente Admin
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
     var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
 
-    // Crea ruolo Admin e utente Admin se non esistono
     await CreateAdminRoleAndUser(roleManager, userManager);
 }
 
@@ -121,25 +121,23 @@ app.Run();
 
 async Task CreateAdminRoleAndUser(RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager)
 {
-    // Crea il ruolo Admin se non esiste
-    if (!await roleManager.RoleExistsAsync("Admin"))
+    string[] roleNames = { "Admin", "Operatore" };
+    foreach (var roleName in roleNames)
     {
-        await roleManager.CreateAsync(new IdentityRole("Admin"));
-    }
-    // Crea il ruolo Operatore se non esiste
-    if (!await roleManager.RoleExistsAsync("Operatore"))
-    {
-        await roleManager.CreateAsync(new IdentityRole("Operatore"));
+        if (!await roleManager.RoleExistsAsync(roleName))
+        {
+            await roleManager.CreateAsync(new IdentityRole(roleName));
+        }
     }
 
-    // Controlla se esiste già un utente Admin
-    var adminUser = await userManager.FindByEmailAsync("admin@example.com");
+    var adminEmail = "admin@example.com";
+    var adminUser = await userManager.FindByEmailAsync(adminEmail);
     if (adminUser == null)
     {
         var admin = new IdentityUser
         {
-            UserName = "admin@example.com",
-            Email = "admin@example.com",
+            UserName = adminEmail,
+            Email = adminEmail,
             EmailConfirmed = true
         };
 

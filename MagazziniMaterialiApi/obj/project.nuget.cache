@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dA9ig6gwDP8=",
+  "dgSpecHash": "FGwxlXlHOE4=",
   "success": true,
   "projectFilePath": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\MagazziniMaterialiAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fjodo\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\fjodo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\fjodo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\fjodo\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",

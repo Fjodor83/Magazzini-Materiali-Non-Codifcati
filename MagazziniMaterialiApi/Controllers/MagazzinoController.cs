@@ -11,6 +11,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using MagazziniMaterialiAPI.Models.Entity.DTOs;
 using MagazziniMaterialiAPI.Services;
+using System.Data.Entity;
+using AutoMapper;
+using MagazziniMaterialiCLient.Services;
 
 namespace MagazziniMaterialiAPI.Controllers
 {
@@ -21,12 +24,16 @@ namespace MagazziniMaterialiAPI.Controllers
         private readonly IMagazziniService _MagazziniService;
         private readonly IMaterialeMagazziniService _MaterialeMagazziniService;
         private readonly IMagazzinoMapper _MagazzinoMapper;
+        private readonly IGiacenzaService _giacenzaService;
+       
 
-        public MagazzinoController(IMagazziniService Magazziniervice, IMaterialeMagazziniService MaterialeMagazziniervice, IMagazzinoMapper MagazzinoMapper)
+        public MagazzinoController(IMagazziniService Magazziniervice, IMaterialeMagazziniService MaterialeMagazziniervice, IMagazzinoMapper MagazzinoMapper, IGiacenzaService GiacenzaService)
         {
             _MaterialeMagazziniService = MaterialeMagazziniervice;
             _MagazziniService = Magazziniervice;
             _MagazzinoMapper = MagazzinoMapper;
+            _giacenzaService = GiacenzaService;
+          
         }
 
         /// <summary>
@@ -146,6 +153,29 @@ namespace MagazziniMaterialiAPI.Controllers
         {
             List<MaterialeDTO> Materiali = _MagazziniService.GetMaterialiByMagazzinoId(MagazzinoId);
             return Ok(Materiali);
+        }
+        [HttpGet("{id}/giacenze")]
+        public async Task<ActionResult<MagazzinoConGiacenzeDTO>> GetMagazzinoConGiacenze(int id)
+        {
+            var magazzino =  _MagazziniService.GetById(id);
+            if (magazzino == null)
+            {
+                return NotFound();
+            }
+
+            var giacenze = await _giacenzaService.GetByMagazzinoIdAsync(id);
+
+            var magazzinoDTO = new MagazzinoConGiacenzeDTO
+            {
+                Id = magazzino.Id,
+                CodiceMagazzino = magazzino.CodiceMagazzino,
+                NomeMagazzino = magazzino.NomeMagazzino,
+                DescrizioneMagazzino = magazzino.DescrizioneMagazzino,
+                Note = magazzino.Note,
+                Giacenze = giacenze.ToList()
+            };
+
+            return Ok(magazzinoDTO);
         }
     }
 }

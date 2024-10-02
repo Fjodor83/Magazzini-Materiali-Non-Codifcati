@@ -1462,16 +1462,6 @@ C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tiroc
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.pdb
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.genruntimeconfig.cache
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\ref\MagazziniMaterialiAPI.dll
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.csproj.AssemblyReference.cache
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.AssemblyInfoInputs.cache
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.AssemblyInfo.cs
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.csproj.CoreCompileInputs.cache
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.sourcelink.json
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\MagazziniMaterialiCLient.staticwebassets.runtime.json
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\appsettings.json
@@ -1513,8 +1503,10 @@ C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMater
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
@@ -1742,6 +1734,14 @@ C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMater
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\MagazziniMaterialiCLient.dll
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\MagazziniMaterialiCLient.pdb
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.csproj.AssemblyReference.cache
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.AssemblyInfoInputs.cache
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.AssemblyInfo.cs
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.csproj.CoreCompileInputs.cache
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.sourcelink.json
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\staticwebassets\msbuild.MagazziniMaterialiAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -1756,3 +1756,4 @@ C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMater
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.pdb
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\MagazziniMaterialiAPI.genruntimeconfig.cache
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\obj\Debug\net8.0\ref\MagazziniMaterialiAPI.dll
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiApi\bin\Debug\net8.0\AutoMapper.dll

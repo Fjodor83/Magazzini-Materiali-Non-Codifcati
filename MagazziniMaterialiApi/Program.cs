@@ -1,5 +1,7 @@
+using Intersoft.Crosslight;
 using MagazziniMaterialiAPI;
 using MagazziniMaterialiAPI.Data;
+using MagazziniMaterialiAPI.Mapper;
 using MagazziniMaterialiAPI.Repositories;
 using MagazziniMaterialiAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -31,6 +33,7 @@ builder.Services.AddScoped<IMaterialeMagazziniService, MaterialeMagazziniService
 
 builder.Services.AddScoped<IMaterialeRepository, MaterialeRepository>();
 builder.Services.AddScoped<IGiacenzaRepository, GiacenzaRepository>();
+builder.Services.AddScoped<IGiacenzaService, GiacenzaService>();
 builder.Services.AddScoped<IMovimentazioneRepository, MovimentazioneRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IMagazzinoRepository, MagazzinoRepository>();
@@ -39,6 +42,7 @@ builder.Services.AddScoped<IMaterialeMagazzinoRepository, MaterialeMagazzinoRepo
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IMagazzinoMapper, MagazzinoMapper>();
 builder.Services.AddScoped<IMaterialeMapper, MaterialeMapper>();
+builder.Services.AddScoped<IGiacenzaMapper, GiacenzaMapper>();
 
 // Configura il DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

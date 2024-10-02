@@ -1,0 +1,51 @@
+﻿@page "/dettagli-missione/{id:int}"
+@inject HttpClient Http
+@using MagazziniMaterialiCLient.Models
+
+
+<PageTitle>Dettagli Missione</PageTitle>
+
+<h2>Dettagli Missione</h2>
+
+@if (missione != null)
+{
+    <div>
+        <h3>Missione</h3>
+        <p><strong>Id:</strong> @missione.Id</p>
+        <p><strong>Codice Univoco:</strong> @missione.CodiceUnivoco</p>
+        <p><strong>Tipologia Destinazione:</strong> @missione.TipologiaDestinazione</p>
+        <p><strong>Descrizione:</strong> @missione.Descrizione</p>
+        <p><strong>Stato:</strong> @missione.Stato</p>
+    </div>
+    <div>
+        <h3>Operatore</h3>
+        <p><strong>Id:</strong> @missione.Operatore.Id</p>
+        <p><strong>UserName:</strong> @missione.Operatore.UserName</p>
+        <p><strong>Email:</strong> @missione.Operatore.Email</p>
+    </div>
+}
+else
+{
+    <p>Caricamento in corso...</p>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private DettagliMissioneViewModel missione;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await Http.GetAsync($"api/Missioni/dettagli-missione/{Id}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            missione = await response.Content.ReadFromJsonAsync<DettagliMissioneViewModel>();
+        }
+        else
+        {
+            // Gestisci il caso in cui la missione non è stata trovata
+        }
+    }
+}

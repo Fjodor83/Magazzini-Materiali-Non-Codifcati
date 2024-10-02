@@ -1,0 +1,63 @@
+﻿@page "/missioni/crea"
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+
+<div class="container mt-4">
+    <h2>Crea Nuova Missione di Prelievo</h2>
+
+    <EditForm Model="missione" OnValidSubmit="InviaMissione">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group mb-3">
+            <label for="TipologiaDestinazione">Tipologia Destinazione</label>
+            <InputText id="TipologiaDestinazione" class="form-control" @bind-Value="missione.TipologiaDestinazione" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="Descrizione">Descrizione</label>
+            <InputTextArea id="Descrizione" class="form-control" @bind-Value="missione.Descrizione" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="OperatoreId">Operatore</label>
+            <InputText id="OperatoreId" class="form-control" @bind-Value="missione.OperatoreId" />
+        </div>
+
+        <button type="submit" class="btn btn-success">
+            <i class="fas fa-check"></i> Crea Missione
+        </button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="Annulla">
+            <i class="fas fa-times"></i> Annulla
+        </button>
+    </EditForm>
+</div>
+
+@code {
+    private CreaMissioneDto missione = new CreaMissioneDto();
+
+    private async Task InviaMissione()
+    {
+        var response = await HttpClient.PostAsJsonAsync("api/missioni/crea-missione", missione);
+        if (response.IsSuccessStatusCode)
+        {
+            NavigationManager.NavigateTo("/missioni");
+        }
+        else
+        {
+            // Gestione degli errori (puoi aggiungere un messaggio di errore qui)
+        }
+    }
+
+    private void Annulla()
+    {
+        NavigationManager.NavigateTo("/missioni");
+    }
+
+    public class CreaMissioneDto
+    {
+        public string TipologiaDestinazione { get; set; }
+        public string Descrizione { get; set; }
+        public string OperatoreId { get; set; }
+    }
+}

@@ -5,31 +5,35 @@
 @inject AccountService AccountService
 @attribute [Authorize(Roles = "Admin")]
 
-<h3>Assegna Ruolo</h3>
-
-@if (!string.IsNullOrEmpty(successMessage))
-{
-    <div class="alert alert-success">@successMessage</div>
-}
-@if (!string.IsNullOrEmpty(errorMessage))
-{
-    <div class="alert alert-danger">@errorMessage</div>
-}
-
-<EditForm Model="@userRole" OnValidSubmit="HandleAssegnaRuolo">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
-
-    <div class="form-group">
-        <label for="username">Username:</label>
-        <InputText id="username" @bind-Value="userRole.Username" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label for="role">Ruolo:</label>
-        <InputText id="role" @bind-Value="userRole.Role" class="form-control" />
-    </div>
-    <button type="submit" class="btn btn-primary">Assegna Ruolo</button>
-</EditForm>
+<div class="container mt-4">
+    <h3>Assegna Ruolo</h3>
+    @if (!string.IsNullOrEmpty(successMessage))
+    {
+        <div class="alert alert-success">@successMessage</div>
+    }
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger">@errorMessage</div>
+    }
+    <EditForm Model="@userRole" OnValidSubmit="HandleAssegnaRuolo">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="mb-3">
+            <label for="username" class="form-label">Username:</label>
+            <InputText id="username" @bind-Value="userRole.Username" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label for="role" class="form-label">Ruolo:</label>
+            <InputSelect id="role" @bind-Value="userRole.Role" class="form-select">
+                <option value="">Seleziona un ruolo</option>
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+                <option value="Manager">Manager</option>
+            </InputSelect>
+        </div>
+        <button type="submit" class="btn btn-primary">Assegna Ruolo</button>
+    </EditForm>
+</div>
 
 @code {
     private UserRole userRole = new UserRole();
@@ -40,18 +44,14 @@
     {
         try
         {
-            // Resetta i messaggi prima di ogni tentativo
             successMessage = string.Empty;
             errorMessage = string.Empty;
-
             await AccountService.AssignRole(userRole);
-
-            // Messaggio di successo
             successMessage = "Ruolo assegnato con successo!";
+            userRole = new UserRole(); // Reset the form
         }
         catch (Exception ex)
         {
-            // Messaggio di errore
             errorMessage = $"Errore nell'assegnazione del ruolo: {ex.Message}";
         }
     }

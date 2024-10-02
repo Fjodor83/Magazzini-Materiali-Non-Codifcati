@@ -1,5 +1,4 @@
 ﻿@page "/registra-operatore"
-
 @using MagazziniMaterialiCLient.Models.Entity.DTOs
 @using MagazziniMaterialiCLient.Services
 @using Microsoft.AspNetCore.Authorization
@@ -7,31 +6,30 @@
 @inject NavigationManager NavigationManager
 @attribute [Authorize(Roles = "Admin")]
 
-<h3>Registra Operatore</h3>
-
-@if (!string.IsNullOrEmpty(successMessage))
-{
-    <div class="alert alert-success">@successMessage</div>
-}
-@if (!string.IsNullOrEmpty(errorMessage))
-{
-    <div class="alert alert-danger">@errorMessage</div>
-}
-
-<EditForm Model="@registraOperatoreDto" OnValidSubmit="HandleRegistrazione">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
-
-    <div class="form-group">
-        <label for="email">Email:</label>
-        <InputText id="email" @bind-Value="registraOperatoreDto.Email" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label for="password">Password:</label>
-        <InputText id="password" @bind-Value="registraOperatoreDto.Password" class="form-control" type="password" />
-    </div>
-    <button type="submit" class="btn btn-primary">Registra</button>
-</EditForm>
+<div class="container mt-4">
+    <h3>Registra Operatore</h3>
+    @if (!string.IsNullOrEmpty(successMessage))
+    {
+        <div class="alert alert-success">@successMessage</div>
+    }
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger">@errorMessage</div>
+    }
+    <EditForm Model="@registraOperatoreDto" OnValidSubmit="HandleRegistrazione">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <InputText id="email" @bind-Value="registraOperatoreDto.Email" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password:</label>
+            <InputText id="password" @bind-Value="registraOperatoreDto.Password" class="form-control" type="password" />
+        </div>
+        <button type="submit" class="btn btn-primary">Registra</button>
+    </EditForm>
+</div>
 
 @code {
     private RegistraOperatoreDto registraOperatoreDto = new RegistraOperatoreDto();
@@ -42,22 +40,14 @@
     {
         try
         {
-            // Resetta i messaggi prima di ogni tentativo
             successMessage = string.Empty;
             errorMessage = string.Empty;
-
-            // Registra l'operatore e ottieni il suo ID
             var operatoreId = await AccountService.RegistraOperatore(registraOperatoreDto);
-
-            // Mostra il messaggio di successo e l'operatoreId
             successMessage = $"Operatore registrato con successo! ID Operatore: {operatoreId}";
-
-            // Reindirizza se necessario
-            // NavigationManager.NavigateTo("/");
+            registraOperatoreDto = new RegistraOperatoreDto(); // Reset the form
         }
         catch (Exception ex)
         {
-            // Mostra il messaggio di errore
             errorMessage = $"Errore durante la registrazione: {ex.Message}";
         }
     }

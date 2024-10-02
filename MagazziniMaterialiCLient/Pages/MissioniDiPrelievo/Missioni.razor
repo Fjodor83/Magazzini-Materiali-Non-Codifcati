@@ -1,0 +1,111 @@
+﻿@page "/missioni"
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Gestione Missioni di Prelievo</h2>
+        <button class="btn btn-success" @onclick="CreaMissione">
+            <i class="fas fa-plus"></i> Nuova Missione
+        </button>
+    </div>
+
+    @if (missioni == null)
+    {
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Caricamento in corso...</span>
+            </div>
+        </div>
+    }
+    else if (!missioni.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            Non ci sono missioni disponibili. Clicca su "Nuova Missione" per crearne una.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Codice Univoco</th>
+                        <th>Tipologia Destinazione</th>
+                        <th>Descrizione</th>
+                        <th>Stato</th>
+                        <th>Operatore</th>
+                        <th>Azioni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var missione in missioni)
+                    {
+                        <tr>
+                            <td>@missione.CodiceUnivoco</td>
+                            <td>@missione.TipologiaDestinazione</td>
+                            <td>@missione.Descrizione</td>
+                            <td>@missione.Stato</td>
+                            <td>@missione.OperatoreId</td>
+                            <td>
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-outline-primary btn-sm" @onclick="() => VisualizzaDettagli(missione.Id)">
+                                        <i class="fas fa-info-circle"></i> Dettagli
+                                    </button>
+                                    <button class="btn btn-outline-danger btn-sm" @onclick="() => EliminaMissione(missione.Id)">
+                                        <i class="fas fa-trash-alt"></i> Elimina
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+@code {
+    private List<MissioneDto> missioni;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CaricaMissioni();
+    }
+
+    private async Task CaricaMissioni()
+    {
+        missioni = await HttpClient.GetFromJsonAsync<List<MissioneDto>>("api/missioni");
+    }
+
+    private void CreaMissione()
+    {
+        NavigationManager.NavigateTo("/missioni/crea");
+    }
+
+    private async Task EliminaMissione(int missioneId)
+    {
+        bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", "Sei sicuro di voler eliminare questa missione?");
+        if (confirmed)
+        {
+            await HttpClient.DeleteAsync($"api/missioni/{missioneId}");
+            await CaricaMissioni();
+        }
+    }
+
+    private void VisualizzaDettagli(int missioneId)
+    {
+        NavigationManager.NavigateTo($"/missioni/dettagli/{missioneId}");
+    }
+
+    public class MissioneDto
+    {
+        public int Id { get; set; }
+        public string CodiceUnivoco { get; set; }
+        public string TipologiaDestinazione { get; set; }
+        public string Descrizione { get; set; }
+        public string Stato { get; set; }
+        public string OperatoreId { get; set; }
+    }
+}

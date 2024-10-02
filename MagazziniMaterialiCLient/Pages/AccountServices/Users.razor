@@ -1,42 +1,53 @@
 ﻿@page "/users"
 @using MagazziniMaterialiCLient.Models.Entity.DTOs
 @using MagazziniMaterialiCLient.Services
+@using Microsoft.AspNetCore.Authorization
 @inject UserService UserService
+@attribute [Authorize(Roles = "Admin")]
 
-<h3>Elenco degli Utenti</h3>
-
-@if (users == null)
-{
-    <p>Caricamento utenti...</p>
-}
-else if (users.Count == 0)
-{
-    <p>Nessun utente registrato.</p>
-}
-else
-{
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>ID Utente</th>
-                <th>Username</th>
-                <th>Email</th>
-                <th>Ruoli</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var user in users)
-            {
-                <tr>
-                    <td>@user.Id</td>
-                    <td>@user.UserName</td>
-                    <td>@user.Email</td>
-                    <td>@string.Join(", ", user.Roles)</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+<div class="container mt-4">
+    <h3>Elenco degli Utenti</h3>
+    @if (users == null)
+    {
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Caricamento utenti...</span>
+            </div>
+        </div>
+    }
+    else if (users.Count == 0)
+    {
+        <div class="alert alert-info" role="alert">
+            Nessun utente registrato.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID Utente</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Ruoli</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in users)
+                    {
+                        <tr>
+                            <td>@user.Id</td>
+                            <td>@user.UserName</td>
+                            <td>@user.Email</td>
+                            <td>@string.Join(", ", user.Roles)</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
 
 @code {
     private List<UserDto> users;
@@ -46,3 +57,4 @@ else
         users = await UserService.GetUsersAsync();
     }
 }
+

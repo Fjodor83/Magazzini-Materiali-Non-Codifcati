@@ -109,7 +109,7 @@ namespace MagazziniMaterialiAPI.Controllers
             return Ok(new { message = "Operatore della missione aggiornato con successo" });
         }
 
-        // [Authorize(Roles = "Amministratore,Operatore")]
+     
         [HttpGet("missioni")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<MissionePrelievo>>> GetMissioni()
@@ -126,10 +126,10 @@ namespace MagazziniMaterialiAPI.Controllers
             }
         }
 
-        // Implementa questo metodo per generare un codice univoco
-        private string GeneraCodiceUnivoco()
+        
+        private static string GeneraCodiceUnivoco()
         {
-            // Logica per generare un codice univoco
+           
             return Guid.NewGuid().ToString("N").Substring(0, 8).ToUpper();
         }
     }

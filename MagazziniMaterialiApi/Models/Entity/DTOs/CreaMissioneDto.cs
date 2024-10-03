@@ -5,5 +5,6 @@
         public string TipologiaDestinazione { get; set; }
         public string Descrizione { get; set; }
         public string OperatoreId { get; set; }
+        public string OperatoreEmail { get; set; }
     }
 }

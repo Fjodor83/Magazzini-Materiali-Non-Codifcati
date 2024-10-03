@@ -3,120 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\materiali\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\missionidiprelievo\\creamissione.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\assegnaruolo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\models\\entity\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\magazzini\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\missionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\missionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\magazzini\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\models\\entity\\dtos\\creamissionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\missionidiprelievo\\dettaglimissione.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\models\\dettaglimissionemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\models\\dettaglimissioneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\magazzinocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\magazzinocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\services\\magazziniservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:services\\magazziniservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\repositories\\magazzinorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:repositories\\magazzinorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\services\\giacenzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:services\\giacenzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\mapper\\giacenzamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:mapper\\giacenzamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\mapper\\igiacenzamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:mapper\\igiacenzamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\services\\igiacenzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:services\\igiacenzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\repositories\\giacenzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:repositories\\giacenzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\repositories\\igiacenzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:repositories\\igiacenzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\dtos\\materialecongiacenzedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\dtos\\materialecongiacenzedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\dtos\\magazzinocongiacenzedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\dtos\\magazzinocongiacenzedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\classificazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\classificazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\dtos\\giacenzadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\dtos\\giacenzadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\materialecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\materialecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\materiali\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\edituser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\documents\\github\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\dtos\\creamissionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\dtos\\creamissionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,7 +27,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,412 +47,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Materiali\\Edit.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Materiali\\Edit.razor",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Materiali\\Edit.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Materiali\\Edit.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T16:04:17.976Z",
+              "DocumentIndex": 4,
+              "Title": "CreaMissioneDto.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "RelativeToolTip": "Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:43:04.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Magazzini\\Edit.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Magazzini\\Edit.razor",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Magazzini\\Edit.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Magazzini\\Edit.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T16:03:18.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DettagliMissione.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\DettagliMissione.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\DettagliMissione.razor",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\DettagliMissione.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\DettagliMissione.razor",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T15:46:55.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DettagliMissioneViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\DettagliMissioneViewModel.cs",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Models\\DettagliMissioneViewModel.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\DettagliMissioneViewModel.cs",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Models\\DettagliMissioneViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Title": "MissioniController.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MissioniController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MissioniController.cs",
+              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MissioniController.cs",
+              "RelativeToolTip": "Controllers\\MissioniController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAzwDQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T15:44:23.011Z",
+              "WhenOpened": "2024-10-03T14:33:12.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Magazzini\\Index.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Magazzini\\Index.razor",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Magazzini\\Index.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Magazzini\\Index.razor",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T15:22:07.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MagazziniService.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\MagazziniService.cs",
-              "RelativeDocumentMoniker": "Services\\MagazziniService.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\MagazziniService.cs",
-              "RelativeToolTip": "Services\\MagazziniService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CreaMissioneDto.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T15:15:49.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MagazzinoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\MagazzinoRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\MagazzinoRepository.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\MagazzinoRepository.cs",
-              "RelativeToolTip": "Repositories\\MagazzinoRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T15:16:31.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GiacenzaMapper.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Mapper\\GiacenzaMapper.cs",
-              "RelativeDocumentMoniker": "Mapper\\GiacenzaMapper.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Mapper\\GiacenzaMapper.cs",
-              "RelativeToolTip": "Mapper\\GiacenzaMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:53:30.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IGiacenzaMapper.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Mapper\\IGiacenzaMapper.cs",
-              "RelativeDocumentMoniker": "Mapper\\IGiacenzaMapper.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Mapper\\IGiacenzaMapper.cs",
-              "RelativeToolTip": "Mapper\\IGiacenzaMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:51:11.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GiacenzaService.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\GiacenzaService.cs",
-              "RelativeDocumentMoniker": "Services\\GiacenzaService.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\GiacenzaService.cs",
-              "RelativeToolTip": "Services\\GiacenzaService.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAswEwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:46:19.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IGiacenzaService.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\IGiacenzaService.cs",
-              "RelativeDocumentMoniker": "Services\\IGiacenzaService.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\IGiacenzaService.cs",
-              "RelativeToolTip": "Services\\IGiacenzaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:45:52.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GiacenzaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\GiacenzaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\GiacenzaRepository.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\GiacenzaRepository.cs",
-              "RelativeToolTip": "Repositories\\GiacenzaRepository.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAADwvzAAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:43:59.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IGiacenzaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\IGiacenzaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IGiacenzaRepository.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\IGiacenzaRepository.cs",
-              "RelativeToolTip": "Repositories\\IGiacenzaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:43:03.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MagazzinoController.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MagazzinoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MagazzinoController.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MagazzinoController.cs",
-              "RelativeToolTip": "Controllers\\MagazzinoController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAADwvx0AAAC9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:41:26.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MaterialeConGiacenzeDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\MaterialeConGiacenzeDTO.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\DTOs\\MaterialeConGiacenzeDTO.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\MaterialeConGiacenzeDTO.cs",
-              "RelativeToolTip": "Models\\Entity\\DTOs\\MaterialeConGiacenzeDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:40:28.265Z",
+              "WhenOpened": "2024-10-03T14:32:33.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AssegnaRuolo.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T08:51:52.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DettagliMissioneModel.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\DettagliMissioneModel.cs",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Models\\DettagliMissioneModel.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\DettagliMissioneModel.cs",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Models\\DettagliMissioneModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T15:47:39.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MagazzinoConGiacenzeDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\MagazzinoConGiacenzeDTO.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\DTOs\\MagazzinoConGiacenzeDTO.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\MagazzinoConGiacenzeDTO.cs",
-              "RelativeToolTip": "Models\\Entity\\DTOs\\MagazzinoConGiacenzeDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:39:38.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Classificazione.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Classificazione.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\Classificazione.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Classificazione.cs",
-              "RelativeToolTip": "Models\\Entity\\Classificazione.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:38:19.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GiacenzaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\GiacenzaDTO.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\DTOs\\GiacenzaDTO.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\GiacenzaDTO.cs",
-              "RelativeToolTip": "Models\\Entity\\DTOs\\GiacenzaDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:37:24.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCwAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T10:46:31.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T13:39:23.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Delete.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Materiali\\Delete.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Materiali\\Delete.razor",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Materiali\\Delete.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Materiali\\Delete.razor",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T13:35:09.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\IUserService.cs",
-              "RelativeToolTip": "Services\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T09:17:20.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MaterialeController.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MaterialeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MaterialeController.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MaterialeController.cs",
-              "RelativeToolTip": "Controllers\\MaterialeController.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAkwEwAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:27:52.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\UserService.cs",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Services\\UserService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAwCkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T08:27:12.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T09:19:28.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowDwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T09:15:51.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAAwCAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T09:14:49.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "EditUser.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\EditUser.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\EditUser.razor",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\EditUser.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\EditUser.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T08:57:10.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T09:25:03.22Z"
+              "WhenOpened": "2024-10-03T14:30:49.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Users.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
-              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAI8AAAAxAAAA",
+              "DocumentIndex": 0,
+              "Title": "CreaMissione.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T08:21:16.403Z",
+              "WhenOpened": "2024-10-03T14:29:53.206Z",
               "EditorCaption": ""
             }
           ]

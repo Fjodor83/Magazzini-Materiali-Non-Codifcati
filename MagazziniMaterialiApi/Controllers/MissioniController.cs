@@ -25,7 +25,8 @@ namespace MagazziniMaterialiAPI.Controllers
         [HttpPost("crea-missione")]
         public async Task<IActionResult> CreaMissione([FromBody] CreaMissioneDto dto)
         {
-            var operatore = await _userManager.FindByIdAsync(dto.OperatoreId);
+            // Trova l'utente tramite l'email
+            var operatore = await _userManager.FindByEmailAsync(dto.OperatoreEmail);
             if (operatore == null)
             {
                 return BadRequest("Operatore non trovato");
@@ -41,15 +42,16 @@ namespace MagazziniMaterialiAPI.Controllers
                 TipologiaDestinazione = dto.TipologiaDestinazione,
                 Descrizione = dto.Descrizione,
                 Stato = "Attiva",
-                OperatoreId = dto.OperatoreId,
-                CodiceUnivoco = GeneraCodiceUnivoco() 
+                OperatoreId = operatore.Id,  
+                CodiceUnivoco = GeneraCodiceUnivoco()
             };
 
             _context.MissioniPrelievo.Add(missione);
             await _context.SaveChangesAsync();
 
-            return Ok(new { message = "Missione creata con successo", missioneId = missione.Id });
+            return Ok(new { message = "Missione creata con successo", CodiceUnivoco = missione.CodiceUnivoco,   });
         }
+
         [HttpGet("missioni-operatore/{operatoreId}")]
         public async Task<IActionResult> GetMissioniOperatore(string operatoreId)
         {

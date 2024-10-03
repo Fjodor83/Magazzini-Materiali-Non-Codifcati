@@ -1,11 +1,15 @@
 ﻿@page "/missioni/crea"
+@using MagazziniMaterialiCLient.Models.Entity.DTOs
+@using MagazziniMaterialiCLient.Services
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
+@inject UserService UserService
+@inject IJSRuntime JSRuntime
 
 <div class="container mt-4">
     <h2>Crea Nuova Missione di Prelievo</h2>
 
-    <EditForm Model="missione" OnValidSubmit="InviaMissione">
+    <EditForm Model="missione" OnValidSubmit="CreaMissioni">
         <DataAnnotationsValidator />
         <ValidationSummary />
 
@@ -21,8 +25,18 @@
 
         <div class="form-group mb-3">
             <label for="OperatoreId">Operatore</label>
-            <InputText id="OperatoreId" class="form-control" @bind-Value="missione.OperatoreId" />
+            <select id="OperatoreId" class="form-control" @bind="missione.OperatoreId">
+                <option value="">-- Seleziona Operatore --</option>
+                @if (users != null)
+                {
+                    @foreach (var user in users)
+                    {
+                        <option value="@user.Id">@user.Email</option>
+                    }
+                }
+            </select>
         </div>
+
 
         <button type="submit" class="btn btn-success">
             <i class="fas fa-check"></i> Crea Missione
@@ -35,17 +49,51 @@
 
 @code {
     private CreaMissioneDto missione = new CreaMissioneDto();
+    private List<UserDto> users;
 
-    private async Task InviaMissione()
+    protected override async Task OnInitializedAsync()
     {
-        var response = await HttpClient.PostAsJsonAsync("api/missioni/crea-missione", missione);
-        if (response.IsSuccessStatusCode)
+        
+        users = await UserService.GetUsersAsync(); // Metodo per ottenere gli utenti da Identity
+    }
+
+    private async Task CreaMissioni()
+    {
+        if (string.IsNullOrWhiteSpace(missione.TipologiaDestinazione) || string.IsNullOrWhiteSpace(missione.OperatoreId))
         {
-            NavigationManager.NavigateTo("/missioni");
+            // Mostra un messaggio di errore se mancano dei campi obbligatori
+            await JSRuntime.InvokeVoidAsync("alert", "Compila tutti i campi obbligatori.");
+            return;
         }
-        else
+
+        // Trova l'email dell'operatore selezionato
+        var selectedUser = users.FirstOrDefault(u => u.Id == missione.OperatoreId);
+        if (selectedUser != null)
         {
-            // Gestione degli errori (puoi aggiungere un messaggio di errore qui)
+            missione.OperatoreEmail = selectedUser.Email;
+        }
+
+        try
+        {
+            // Effettua la chiamata HTTP al server
+            var response = await HttpClient.PostAsJsonAsync("https://localhost:7089/api/missioni/crea-missione", missione);
+
+            if (response.IsSuccessStatusCode)
+            {
+                // Naviga verso la pagina di conferma o mostra un messaggio di successo
+                NavigationManager.NavigateTo("/missioni");
+            }
+            else
+            {
+                // Gestisci gli errori della risposta
+                var errorMessage = await response.Content.ReadAsStringAsync();
+                await JSRuntime.InvokeVoidAsync("alert", $"Errore nella creazione della missione: {errorMessage}");
+            }
+        }
+        catch (Exception ex)
+        {
+            // Gestione dell'eccezione nel caso di errori di rete o altro
+            await JSRuntime.InvokeVoidAsync("alert", $"Errore: {ex.Message}");
         }
     }
 
@@ -59,5 +107,6 @@
         public string TipologiaDestinazione { get; set; }
         public string Descrizione { get; set; }
         public string OperatoreId { get; set; }
+        public string OperatoreEmail { get; set; }  // Aggiunta della proprietà OperatoreEmail
     }
 }

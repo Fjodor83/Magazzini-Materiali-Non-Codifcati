@@ -18,9 +18,16 @@ namespace MagazziniMaterialiCLient.Services
 
         public async Task<List<UserDto>> GetUsersAsync()
         {
-            // Chiama l'API per ottenere la lista degli utenti
-            return await _httpClient.GetFromJsonAsync<List<UserDto>>("api/account/get-users");
+            var users = await _httpClient.GetFromJsonAsync<List<UserDto>>("api/account/get-users");
+
+            foreach (var user in users)
+            {
+                user.Roles = await GetUserRolesAsync(user.Email); 
+            }
+
+            return users;
         }
+
         public async Task DeleteUserAsync(string userName)
         {
             try

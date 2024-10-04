@@ -150,16 +150,19 @@ namespace MagazziniMaterialiAPI.Controllers
             return Ok(userDtos);
         }
 
-        [HttpGet("get-user-role/{userId}")]
-        public async Task<IActionResult> GetUserRoles(string userId)
+        [HttpGet("get-user-role/{userName}")]
+        public async Task<IActionResult> GetUserRoles(string userName)
         {
-            var roles = await _userService.GetUserRolesAsync(userId);
-            if (roles == null || !roles.Any())
+            var user = await _userManager.FindByNameAsync(userName);
+            if (user == null)
             {
-                return NotFound("Ruolo utente non trovato.");
+                return NotFound("User not found");
             }
+
+            var roles = await _userManager.GetRolesAsync(user);
             return Ok(roles);
         }
+
         [HttpDelete("delete/{userName}")]
         public async Task<IActionResult> DeleteUser(string userName)
         {

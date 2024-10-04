@@ -5637,10 +5637,6 @@ C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tiroc
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\obj\Debug\net8.0\refint\MagazziniMaterialiCLient.dll
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\obj\Debug\net8.0\MagazziniMaterialiCLient.pdb
 C:\Users\fjodo\OneDrive - Università degli Studi di Bari\Documenti\GitHub\Tirocinio\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\obj\Debug\net8.0\ref\MagazziniMaterialiCLient.dll
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Relational.wasm.gz
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.Tools.wasm.gz
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Numerics.wasm.gz
-C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\itextsharp.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm
@@ -5957,6 +5953,7 @@ C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMater
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.TypeExtensions.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Threading.wasm.gz
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Relational.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Intrinsics.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.wasm.gz
@@ -6019,6 +6016,7 @@ C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMater
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Net.Sockets.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\icudt_CJK.dat.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Console.wasm.gz
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.Tools.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.CSharp.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XDocument.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Newtonsoft.Json.wasm.gz
@@ -6038,6 +6036,7 @@ C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMater
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Win32.Registry.wasm.gz
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Numerics.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Private.Xml.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Transactions.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.Primitives.wasm.gz
@@ -6075,6 +6074,7 @@ C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMater
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Cryptography.Internal.wasm.gz
+C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\itextsharp.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Security.Cryptography.Cng.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\System.Resources.Reader.wasm.gz
 C:\Users\fjodo\Documents\GitHub\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Caching.Memory.wasm.gz

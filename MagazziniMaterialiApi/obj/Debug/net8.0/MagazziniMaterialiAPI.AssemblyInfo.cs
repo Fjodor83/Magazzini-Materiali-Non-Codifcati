@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagazziniMaterialiAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22ef42f32dc8dda1922b5e7b63765fc4f9b2d592")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0cf444681c3aa3384f3843473ec1136b6046cc8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagazziniMaterialiAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagazziniMaterialiAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

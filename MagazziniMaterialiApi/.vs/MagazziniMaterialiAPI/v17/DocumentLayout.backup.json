@@ -3,43 +3,70 @@
   "WorkspaceRootPath": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\services\\movimentazioneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:services\\movimentazioneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\registeraoperatore.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\movimentazione\\movimentazioni.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\repositories\\movimentazionerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:repositories\\movimentazionerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\repositories\\imovimentazionerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:repositories\\imovimentazionerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\movimentazionecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\movimentazionecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\dtos\\movimentazionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\dtos\\movimentazionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\models\\entity\\dtos\\movimentazionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\services\\movimentazioneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\movimentazione\\ingresso.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\missionidiprelievo\\creamissione.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\missionidiprelievo\\missioni.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\materiali\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\help.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\assegnaruolo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\missionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\missionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\repositories\\igiacenzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:repositories\\igiacenzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\movimentazione\\uscita.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\giacenza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\giacenza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\classificazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\classificazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\materialeimmagine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\materialeimmagine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\wwwroot\\js\\js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\movimentazione\\storno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,46 +76,36 @@
       "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\help.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\wwwroot\\js\\js||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\pages\\accountservices\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4394FE-06F5-4E82-87AD-861D6BAA3EA5}|..\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiclient\\models\\entity\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\CreaMissioneDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\models\\entity\\dtos\\creamissionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:models\\entity\\dtos\\creamissionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|c:\\users\\fjodo\\onedrive - universit\u00E0 degli studi di bari\\documenti\\github\\tirocinio\\magazzini-materiali-non-codifcati\\magazzinimaterialiapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03AD9C28-8736-4A68-8F04-A9CE9936F310}|MagazziniMaterialiAPI.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +115,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,171 +139,146 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisteraOperatore.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\RegisteraOperatore.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T13:54:19.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Users.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAcwCEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T14:06:13.467Z",
+              "Title": "MovimentazioneService.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\MovimentazioneService.cs",
+              "RelativeDocumentMoniker": "Services\\MovimentazioneService.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\MovimentazioneService.cs",
+              "RelativeToolTip": "Services\\MovimentazioneService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T15:20:18.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Missioni.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\Missioni.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\Missioni.razor",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\Missioni.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\Missioni.razor",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAcwG8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Movimentazioni.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Movimentazioni.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Movimentazioni.razor",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Movimentazioni.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Movimentazioni.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T05:36:08.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Help.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Help.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Help.razor",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Help.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Help.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T15:44:39.817Z",
+              "WhenOpened": "2024-10-07T13:21:03.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Materiali\\Index.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Materiali\\Index.razor",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Materiali\\Index.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Materiali\\Index.razor",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAcwHgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T13:54:54.909Z",
+              "Title": "MovimentazioneController.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MovimentazioneController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovimentazioneController.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MovimentazioneController.cs",
+              "RelativeToolTip": "Controllers\\MovimentazioneController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAASwIUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T09:52:57.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovimentazioneDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\MovimentazioneDTO.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\DTOs\\MovimentazioneDTO.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\MovimentazioneDTO.cs",
+              "RelativeToolTip": "Models\\Entity\\DTOs\\MovimentazioneDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:04:51.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAewCcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:43:38.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CreaMissione.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAcwDQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T05:40:09.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IGiacenzaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\IGiacenzaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IGiacenzaRepository.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\IGiacenzaRepository.cs",
-              "RelativeToolTip": "Repositories\\IGiacenzaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABVAAAAAAAAAA==",
+              "Title": "IMovimentazioneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\IMovimentazioneRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IMovimentazioneRepository.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\IMovimentazioneRepository.cs",
+              "RelativeToolTip": "Repositories\\IMovimentazioneRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T05:23:06.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MissioniController.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MissioniController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MissioniController.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MissioniController.cs",
-              "RelativeToolTip": "Controllers\\MissioniController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAYwIEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T05:27:43.475Z",
+              "WhenOpened": "2024-10-07T12:39:46.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T07:04:13.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Giacenza.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Giacenza.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\Giacenza.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Giacenza.cs",
-              "RelativeToolTip": "Models\\Entity\\Giacenza.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "MovimentazioneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\MovimentazioneRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MovimentazioneRepository.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\MovimentazioneRepository.cs",
+              "RelativeToolTip": "Repositories\\MovimentazioneRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAWwEAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T05:21:02.727Z",
+              "WhenOpened": "2024-10-07T12:41:55.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AssegnaRuolo.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\AssegnaRuolo.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T07:06:10.265Z",
+              "Title": "MovimentazioneDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\MovimentazioneDTO.cs",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\MovimentazioneDTO.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\MovimentazioneDTO.cs",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\MovimentazioneDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:24:45.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "MovimentazioneService.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\MovimentazioneService.cs",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Services\\MovimentazioneService.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\MovimentazioneService.cs",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Services\\MovimentazioneService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:19:37.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ingresso.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Ingresso.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Ingresso.razor",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Ingresso.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Ingresso.razor",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwCgAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T08:26:07.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Layout\\NavMenu.razor",
               "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T11:04:14.518Z",
+              "WhenOpened": "2024-10-07T08:27:18.251Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Home.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T10:58:04.107Z"
             },
             {
               "$type": "Document",
@@ -296,69 +288,10 @@
               "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\wwwroot\\index.html",
               "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\index.html",
               "RelativeToolTip": "..\\MagazziniMaterialiCLient\\wwwroot\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-01T15:45:19.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Program.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:05:48.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:21:45.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\UserService.cs",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:03:54.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAADwv5YAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:01:39.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-01T15:28:26.412Z"
+              "WhenOpened": "2024-10-07T08:48:54.467Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -370,79 +303,232 @@
               "RelativeToolTip": "..\\MagazziniMaterialiCLient\\wwwroot\\js\\js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-01T15:45:05.187Z"
+              "WhenOpened": "2024-10-07T08:51:41.45Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAUAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "MaterialeImmagine.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\MaterialeImmagine.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\MaterialeImmagine.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\MaterialeImmagine.cs",
+              "RelativeToolTip": "Models\\Entity\\MaterialeImmagine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:19:08.921Z"
+              "WhenOpened": "2024-10-07T09:48:36.966Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\IUserService.cs",
-              "RelativeToolTip": "Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "MissioniController.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MissioniController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MissioniController.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\MissioniController.cs",
+              "RelativeToolTip": "Controllers\\MissioniController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwDQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:19:37.784Z"
+              "WhenOpened": "2024-10-03T14:33:12.058Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "CreaMissione.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T07:44:16.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Uscita.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Uscita.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Uscita.razor",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Uscita.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Uscita.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T08:26:22.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Classificazione.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Classificazione.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Classificazione.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\Classificazione.cs",
+              "RelativeToolTip": "Models\\Entity\\Classificazione.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:20:23.08Z"
+              "WhenOpened": "2024-10-07T10:02:04.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Storno.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Storno.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Storno.razor",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Storno.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\Movimentazione\\Storno.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T08:26:40.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\DTOs\\UserDto.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "Models\\Entity\\DTOs\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Program.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Program.cs",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:31:31.085Z"
+              "WhenOpened": "2024-10-07T08:25:16.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T09:04:10.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Help.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Help.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Help.razor",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Help.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Help.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T07:55:20.51Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:05:33.549Z"
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Login.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T07:54:42.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Users.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
+              "RelativeDocumentMoniker": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
+              "RelativeToolTip": "..\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T07:41:33.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Users.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
+              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\AccountServices\\Users.razor",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T08:59:30.236Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Services\\UserService.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:18:49.548Z"
+              "WhenOpened": "2024-10-04T08:49:36.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAALMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:35:10.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreaMissioneDto.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "ToolTip": "C:\\Users\\fjodo\\OneDrive - Universit\u00E0 degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "RelativeToolTip": "Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:43:04.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreaMissioneDto.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\CreaMissioneDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:32:33.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Models\\Entity\\DTOs\\UserDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:30:49.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreaMissione.razor",
+              "DocumentMoniker": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "ToolTip": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\Pages\\MissioniDiPrelievo\\CreaMissione.razor",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T14:29:53.206Z"
             }
           ]
         }

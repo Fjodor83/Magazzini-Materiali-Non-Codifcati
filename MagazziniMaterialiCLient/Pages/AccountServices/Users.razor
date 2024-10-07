@@ -146,12 +146,12 @@
 
     private async Task DeleteUser(string userName)
     {
-        // Il secondo parametro deve essere un array di object
+        
         bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", new object[] { "Sei sicuro di voler eliminare questo utente?" });
         if (confirmed)
         {
             await UserService.DeleteUserAsync(userName);
-            await LoadUsers();  // Ricarica la lista aggiornata
+            await LoadUsers();  
         }
     }
 

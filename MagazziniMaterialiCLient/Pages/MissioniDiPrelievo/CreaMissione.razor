@@ -23,19 +23,20 @@
             <InputTextArea id="Descrizione" class="form-control" @bind-Value="missione.Descrizione" />
         </div>
 
-        <div class="form-group mb-3">
-            <label for="OperatoreId">Operatore</label>
-            <select id="OperatoreId" class="form-control" @bind="missione.OperatoreId">
-                <option value="">-- Seleziona Operatore --</option>
-                @if (users != null)
-                {
-                    @foreach (var user in users)
-                    {
-                        <option value="@user.Id">@user.Email (@string.Join(", ", user.Roles))</option>
-                    }
-                }
-            </select>
-        </div>
+       <div class="form-group mb-3">
+    <label for="OperatoreId">Operatore</label>
+    <select id="OperatoreId" class="form-control" @bind="missione.OperatoreId">
+        <option value="">-- Seleziona Operatore --</option>
+        @if (users != null)
+        {
+            @foreach (var user in users.Where(u => u.Roles.Contains("Operatore")))
+            {
+                <option value="@user.Id">@user.Email </option>
+            }
+        }
+    </select>
+</div>
+
 
 
 
@@ -108,6 +109,6 @@
         public string TipologiaDestinazione { get; set; }
         public string Descrizione { get; set; }
         public string OperatoreId { get; set; }
-        public string OperatoreEmail { get; set; }  // Aggiunta della proprietà OperatoreEmail
+        public string OperatoreEmail { get; set; }  
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace MagazziniMaterialiAPI.Models.Entity
 {
@@ -11,6 +12,7 @@ namespace MagazziniMaterialiAPI.Models.Entity
 
         [ForeignKey("Materiale")]
         public int MaterialeId { get; set; } // Non nullable se necessario
+        [JsonIgnore]
         public Materiale Materiale { get; set; }
     }
 }

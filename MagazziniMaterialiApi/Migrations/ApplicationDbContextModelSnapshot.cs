@@ -34,7 +34,7 @@ namespace MagazziniMaterialiAPI.Migrations
 
                     b.HasIndex("MaterialiId");
 
-                    b.ToTable("ClassificazioneMateriale", (string)null);
+                    b.ToTable("ClassificazioneMateriale");
                 });
 
             modelBuilder.Entity("MagazziniMaterialiAPI.Models.Entity.Classificazione", b =>
@@ -48,7 +48,7 @@ namespace MagazziniMaterialiAPI.Migrations
 
                     b.HasKey("CodiceClassificazione");
 
-                    b.ToTable("Classificazioni", (string)null);
+                    b.ToTable("Classificazioni");
                 });
 
             modelBuilder.Entity("MagazziniMaterialiAPI.Models.Entity.DettaglioMissione", b =>
@@ -75,7 +75,7 @@ namespace MagazziniMaterialiAPI.Migrations
 
                     b.HasIndex("MissionePrelievoId");
 
-                    b.ToTable("DettagliMissione", (string)null);
+                    b.ToTable("DettagliMissione");
                 });
 
             modelBuilder.Entity("MagazziniMaterialiAPI.Models.Entity.Giacenza", b =>
@@ -105,7 +105,7 @@ namespace MagazziniMaterialiAPI.Migrations
 
                     b.HasIndex("MagazzinoId");
 
-                    b.ToTable("Giacenze", (string)null);
+                    b.ToTable("Giacenze");
                 });
 
             modelBuilder.Entity("MagazziniMaterialiAPI.Models.Entity.Magazzino", b =>
@@ -134,7 +134,7 @@ namespace MagazziniMaterialiAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Magazzini", (string)null);
+                    b.ToTable("Magazzini");
                 });
 
             modelBuilder.Entity("MagazziniMaterialiAPI.Models.Entity.Materiale", b =>
@@ -162,7 +162,7 @@ namespace MagazziniMaterialiAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Materiali", (string)null);
+                    b.ToTable("Materiali");
                 });
 
             modelBuilder.Entity("MagazziniMaterialiAPI.Models.Entity.MaterialeImmagine", b =>
@@ -191,7 +191,7 @@ namespace MagazziniMaterialiAPI.Migrations
 
                     b.HasIndex("MaterialeId");
 
-                    b.ToTable("MaterialeImmagini", (string)null);
+                    b.ToTable("MaterialeImmagini");
                 });
 
             modelBuilder.Entity("MagazziniMaterialiAPI.Models.Entity.MaterialeMagazzino", b =>
@@ -215,7 +215,7 @@ namespace MagazziniMaterialiAPI.Migrations
 
                     b.HasIndex("MagazzinoID");
 
-                    b.ToTable("MaterialeMagazzini", (string)null);
+                    b.ToTable("MaterialeMagazzini");
                 });
 
             modelBuilder.Entity("MagazziniMaterialiAPI.Models.Entity.MissionePrelievo", b =>
@@ -250,7 +250,7 @@ namespace MagazziniMaterialiAPI.Migrations
 
                     b.HasIndex("OperatoreId");
 
-                    b.ToTable("MissioniPrelievo", (string)null);
+                    b.ToTable("MissioniPrelievo");
                 });
 
             modelBuilder.Entity("MagazziniMaterialiAPI.Models.Entity.Movimentazione", b =>
@@ -288,7 +288,7 @@ namespace MagazziniMaterialiAPI.Migrations
 
                     b.HasIndex("MagazzinoId");
 
-                    b.ToTable("Movimentazioni", (string)null);
+                    b.ToTable("Movimentazioni");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

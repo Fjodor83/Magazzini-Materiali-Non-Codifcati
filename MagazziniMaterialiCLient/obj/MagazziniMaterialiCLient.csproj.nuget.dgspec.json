@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {}
+    "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {
+    "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
+        "projectUniqueName": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
         "projectName": "MagazziniMaterialiCLient",
-        "projectPath": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
+        "projectPath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
         "packagesPath": "C:\\Users\\fjodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\obj\\",
+        "outputPath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fjodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,13 +82,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -119,18 +119,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.7, 8.0.7]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

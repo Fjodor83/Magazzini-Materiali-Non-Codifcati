@@ -1,4 +1,5 @@
 ﻿using MagazziniMaterialiAPI.Models.Entity;
+using MagazziniMaterialiAPI.Models.Entity.DTOs;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +17,7 @@ namespace MagazziniMaterialiAPI.Data
         public DbSet<Classificazione> Classificazioni { get; set; }
         public DbSet<MaterialeImmagine> MaterialeImmagini { get; set; }
         public DbSet<MaterialeMagazzino> MaterialeMagazzini { get; set; }
-        public DbSet<Movimentazione> Movimentazioni { get; set; }
+        public DbSet<MovimentazioneDTO> Movimentazioni { get; set; }
         public DbSet<Giacenza> Giacenze { get; set; }
         public DbSet<MissionePrelievo> MissioniPrelievo { get; set; }
         public DbSet<DettaglioMissione> DettagliMissione { get; set; }
@@ -30,13 +31,13 @@ namespace MagazziniMaterialiAPI.Data
                    .HasAlternateKey(m => m.CodiceMateriale);  // Chiave alternativa su CodiceMateriale
 
             // Configurazioni per Movimentazione
-            builder.Entity<Movimentazione>()
+            builder.Entity<MovimentazioneDTO>()
                 .HasOne(m => m.Materiale)
                 .WithMany()
                 .HasForeignKey(m => m.CodiceMateriale)
                 .HasPrincipalKey(m => m.CodiceMateriale);  // Relazione tramite CodiceMateriale
 
-            builder.Entity<Movimentazione>()
+            builder.Entity<MovimentazioneDTO>()
                 .HasOne(m => m.Magazzino)
                 .WithMany()
                 .HasForeignKey(m => m.MagazzinoId);

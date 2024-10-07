@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MagazziniMaterialiAPI.Models.Entity
+namespace MagazziniMaterialiAPI.Models.Entity.DTOs
 {
-    public class Movimentazione
+    public class MovimentazioneDTO
     {
         public int Id { get; set; }
         public string TipoMovimentazione { get; set; } // "Ingresso" o "Uscita"
@@ -20,4 +21,3 @@ namespace MagazziniMaterialiAPI.Models.Entity
         public string Nota { get; set; }
     }
 }
- 

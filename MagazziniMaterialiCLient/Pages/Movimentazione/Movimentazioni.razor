@@ -1,0 +1,124 @@
+﻿@page "/movimentazioni"
+@using MagazziniMaterialiCLient.Models.Entity.DTOs
+@using MagazziniMaterialiCLient.Services
+@inject MovimentazioneService MovimentazioneService
+@inject IJSRuntime JSRuntime
+
+<h1>Lista Movimentazioni</h1>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Cerca per codice materiale..." @oninput="e => FilterByCodiceMateriale(e.Value.ToString())" />
+    </div>
+    <div class="col-md-3">
+        <select class="form-select" @onchange="e => FilterMovimentazioni(e.Value.ToString())">
+            <option value="">Tutti i tipi</option>
+            <option value="Entrata">Entrata</option>
+            <option value="Uscita">Uscita</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <button class="btn btn-primary" @onclick="ResetFilters">Reset Filtri</button>
+    </div>
+</div>
+
+@if (movimentazioni == null)
+{
+    <p>Caricamento...</p>
+}
+else if (!movimentazioni.Any())
+{
+    <p>Nessuna movimentazione trovata.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tipo</th>
+                <th>Codice Materiale</th>
+                <th>Magazzino ID</th>
+                <th>Quantità</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movimentazione in movimentazioni)
+            {
+                <tr>
+                    <td>@movimentazione.Id</td>
+                    <td>@movimentazione.TipoMovimentazione</td>
+                    <td>@movimentazione.CodiceMateriale</td>
+                    <td>@movimentazione.MagazzinoId</td>
+                    <td>@movimentazione.Quantita</td>
+                    <td>@movimentazione.DataMovimentazione.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<MovimentazioneDTO> movimentazioni;
+    private string currentFilter;
+    private string searchCodiceMateriale;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadMovimentazioni();
+    }
+
+    private async Task LoadMovimentazioni()
+    {
+        try
+        {
+            movimentazioni = await MovimentazioneService.GetAllMovimentazioni();
+            ApplyFilter();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Errore nel caricamento delle movimentazioni: {ex.Message}");
+            // Considera di mostrare un messaggio di errore all'utente
+        }
+    }
+
+    private void FilterMovimentazioni(string tipo)
+    {
+        currentFilter = tipo;
+        ApplyFilter();
+    }
+
+    private void FilterByCodiceMateriale(string codice)
+    {
+        searchCodiceMateriale = codice;
+        ApplyFilter();
+    }
+
+    private void ApplyFilter()
+    {
+        if (movimentazioni != null)
+        {
+            var filteredMovimentazioni = movimentazioni.AsQueryable();
+
+            if (!string.IsNullOrEmpty(currentFilter))
+            {
+                filteredMovimentazioni = filteredMovimentazioni.Where(m => m.TipoMovimentazione == currentFilter);
+            }
+
+            if (!string.IsNullOrEmpty(searchCodiceMateriale))
+            {
+                filteredMovimentazioni = filteredMovimentazioni.Where(m => m.CodiceMateriale.Contains(searchCodiceMateriale, StringComparison.OrdinalIgnoreCase));
+            }
+
+            movimentazioni = filteredMovimentazioni.ToList();
+        }
+    }
+
+    private void ResetFilters()
+    {
+        currentFilter = string.Empty;
+        searchCodiceMateriale = string.Empty;
+        ApplyFilter();
+    }
+}

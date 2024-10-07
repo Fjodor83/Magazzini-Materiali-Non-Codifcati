@@ -1,7 +1,8 @@
 ﻿using MagazziniMaterialiAPI.Data;
 using MagazziniMaterialiAPI.Models.Entity;
+using MagazziniMaterialiAPI.Models.Entity.DTOs;
 
-namespace MagazziniMaterialiAPI
+namespace MagazziniMaterialiAPI.Services
 {
     public class MovimentazioneService
     {
@@ -32,7 +33,7 @@ namespace MagazziniMaterialiAPI
 
                 giacenza.QuantitaDisponibile += quantita;
 
-                var movimentazione = new Movimentazione
+                var movimentazione = new MovimentazioneDTO
                 {
                     TipoMovimentazione = "Ingresso",
                     CodiceMateriale = codiceMateriale,
@@ -66,7 +67,7 @@ namespace MagazziniMaterialiAPI
 
                 giacenza.QuantitaDisponibile -= quantita;
 
-                var movimentazione = new Movimentazione
+                var movimentazione = new MovimentazioneDTO
                 {
                     TipoMovimentazione = "Uscita",
                     CodiceMateriale = codiceMateriale,

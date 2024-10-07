@@ -12,6 +12,8 @@ builder.Services.AddScoped<MaterialeService>();
 builder.Services.AddScoped<MagazzinoService>();
 builder.Services.AddScoped<AccountService>();
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<MovimentazioneService>();
+
 
 builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddAuthorizationCore();

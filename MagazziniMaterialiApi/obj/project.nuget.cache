@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FGwxlXlHOE4=",
+  "dgSpecHash": "+SnMXWmclr4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fjodo\\Documents\\GitHub\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\MagazziniMaterialiAPI.csproj",
+  "projectFilePath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiApi\\MagazziniMaterialiAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fjodo\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\fjodo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

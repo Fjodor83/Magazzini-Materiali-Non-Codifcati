@@ -1,0 +1,82 @@
+﻿@page "/movimentazione/ingresso"
+@using MagazziniMaterialiCLient.Models.Entity.DTOs
+@using MagazziniMaterialiCLient.Services
+@inject MovimentazioneService MovimentazioneService
+@inject NavigationManager Navigation
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Movimentazione Ingresso</h2>
+    </div>
+    <EditForm Model="_movimentazione" OnValidSubmit="HandleSubmit" class="border p-4 shadow-sm">
+        <DataAnnotationsValidator />
+        <ValidationSummary class="text-danger" />
+
+        <div class="mb-3">
+            <label for="codiceMateriale" class="form-label">Codice Materiale:</label>
+            <InputText id="codiceMateriale" class="form-control" @bind-Value="_movimentazione.CodiceMateriale" />
+            <ValidationMessage For="@(() => _movimentazione.CodiceMateriale)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="magazzinoId" class="form-label">Magazzino ID:</label>
+            <InputNumber id="magazzinoId" class="form-control" @bind-Value="_movimentazione.MagazzinoId" />
+            <ValidationMessage For="@(() => _movimentazione.MagazzinoId)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="quantita" class="form-label">Quantità:</label>
+            <InputNumber id="quantita" class="form-control" @bind-Value="_movimentazione.Quantita" />
+            <ValidationMessage For="@(() => _movimentazione.Quantita)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="dataMovimentazione" class="form-label">Data Movimentazione:</label>
+            <InputDate id="dataMovimentazione" class="form-control" @bind-Value="_movimentazione.DataMovimentazione" />
+            <ValidationMessage For="@(() => _movimentazione.DataMovimentazione)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="nota" class="form-label">Nota:</label>
+            <InputTextArea id="nota" class="form-control" @bind-Value="_movimentazione.TipoMovimentazione" />
+            <ValidationMessage For="@(() => _movimentazione.TipoMovimentazione)" />
+        </div>
+
+        <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-check"></i> Inserisci Movimentazione
+            </button>
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    private MovimentazioneDTO _movimentazione = new MovimentazioneDTO
+        {
+            TipoMovimentazione = "Ingresso",
+            DataMovimentazione = DateTime.Now
+        };
+
+    private async Task HandleSubmit()
+    {
+        try
+        {
+            var response = await MovimentazioneService.MovimentazioneIngresso(_movimentazione);
+            if (response.IsSuccessStatusCode)
+            {
+                Navigation.NavigateTo("/movimentazione/successo");
+            }
+            else
+            {
+                // Gestisci gli errori qui
+                // Potresti voler mostrare un messaggio di errore all'utente
+                Console.WriteLine($"Errore durante l'inserimento della movimentazione: {response.StatusCode}");
+            }
+        }
+        catch (Exception ex)
+        {
+            // Gestisci eventuali eccezioni
+            Console.WriteLine($"Si è verificata un'eccezione: {ex.Message}");
+        }
+    }
+}

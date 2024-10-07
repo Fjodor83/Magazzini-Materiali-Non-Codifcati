@@ -1,6 +1,5 @@
-﻿using MagazziniMaterialiAPI.Models.Entity;
+﻿using MagazziniMaterialiAPI.Models.Entity.DTOs;
 using MagazziniMaterialiAPI.Repositories;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -29,45 +28,63 @@ namespace MagazziniMaterialiAPI.Controllers
         }
 
         [HttpPost("ingresso")]
-        public IActionResult MovimentazioneIngresso([FromBody] Movimentazione movimentazione)
+        public IActionResult MovimentazioneIngresso([FromBody] MovimentazioneDTO movimentazioneDTO)
         {
-            var materiale = _materialeRepository.GetByCodiceMateriale(movimentazione.CodiceMateriale);
+            if (movimentazioneDTO == null)
+            {
+                return BadRequest("Dati di movimentazione mancanti.");
+            }
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); 
+            }
+            var materiale = _materialeRepository.GetByCodiceMateriale(movimentazioneDTO.CodiceMateriale);
 
             if (materiale == null)
             {
                 return NotFound("Materiale non trovato.");
             }
 
-            // Aggiungi la movimentazione nel sistema
-            _movimentazioneRepository.Add(movimentazione);
+            
+            _movimentazioneRepository.Add(movimentazioneDTO);
 
-            // Aggiorna la giacenza aggiungendo la quantità
-            _giacenzaRepository.AggiornaGiacenza(movimentazione.MagazzinoId, movimentazione.CodiceMateriale, movimentazione.Quantita);
+            
+            _giacenzaRepository.AggiornaGiacenza(movimentazioneDTO.MagazzinoId, movimentazioneDTO.CodiceMateriale, movimentazioneDTO.Quantita);
 
-            _logger.LogInformation($"Movimentazione di ingresso per il materiale {movimentazione.CodiceMateriale} registrata con successo.");
+            _logger.LogInformation($"Movimentazione di ingresso per il materiale {movimentazioneDTO.CodiceMateriale} registrata con successo.");
 
-            return Ok();
+            return Ok("Movimentazione di ingresso registrata con successo.");
         }
 
         [HttpPost("uscita")]
-        public IActionResult MovimentazioneUscita([FromBody] Movimentazione movimentazione)
+        public IActionResult MovimentazioneUscita([FromBody] MovimentazioneDTO movimentazione)
         {
+            if (movimentazione == null)
+            {
+                return BadRequest("Dati di movimentazione mancanti.");
+            }
+
             var giacenza = _giacenzaRepository.GetGiacenza(movimentazione.MagazzinoId, movimentazione.CodiceMateriale);
 
-            if (giacenza == null || giacenza.QuantitaDisponibile < movimentazione.Quantita)
+            if (giacenza == null)
+            {
+                return NotFound("Giacenza non trovata.");
+            }
+
+            if (giacenza.QuantitaDisponibile < movimentazione.Quantita)
             {
                 return BadRequest("Quantità insufficiente in magazzino.");
             }
 
-            // Aggiorna la giacenza sottraendo la quantità
+            
             _giacenzaRepository.AggiornaGiacenza(movimentazione.MagazzinoId, movimentazione.CodiceMateriale, -movimentazione.Quantita);
 
-            // Aggiungi la movimentazione
+            
             _movimentazioneRepository.Add(movimentazione);
 
             _logger.LogInformation($"Movimentazione di uscita per il materiale {movimentazione.CodiceMateriale} registrata con successo.");
 
-            return Ok();
+            return Ok("Movimentazione di uscita registrata con successo.");
         }
 
         [HttpDelete("{id}/storno")]
@@ -98,11 +115,49 @@ namespace MagazziniMaterialiAPI.Controllers
                 _giacenzaRepository.AggiornaGiacenza(movimentazione.MagazzinoId, movimentazione.CodiceMateriale, movimentazione.Quantita);
             }
 
+            // Elimina la movimentazione
             _movimentazioneRepository.Delete(movimentazione.Id);
 
             _logger.LogInformation($"Movimentazione {id} stornata con successo.");
 
             return NoContent();
         }
+        [HttpGet]
+        public ActionResult<IEnumerable<MovimentazioneDTO>> GetAll([FromQuery] string? codiceMateriale = null)
+        {
+            try
+            {
+                IEnumerable<MovimentazioneDTO> movimentazioni;
+
+                if (!string.IsNullOrEmpty(codiceMateriale))
+                {
+                    movimentazioni = _movimentazioneRepository.GetByMaterialeId(codiceMateriale);
+                }
+                else
+                {
+                    movimentazioni = _movimentazioneRepository.GetAllAsync();
+                }
+
+                var movimentazioniDTO = movimentazioni.Select(m => new MovimentazioneDTO
+                {
+                    Id = m.Id,
+                    TipoMovimentazione = m.TipoMovimentazione,
+                    CodiceMateriale = m.CodiceMateriale,
+                    MagazzinoId = m.MagazzinoId,
+                    Quantita = m.Quantita,
+                    DataMovimentazione = m.DataMovimentazione,
+                    Nota = m.Nota
+                }).ToList();
+
+                return Ok(movimentazioniDTO);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Errore durante il recupero delle movimentazioni");
+                return StatusCode(500, "Si è verificato un errore durante il recupero delle movimentazioni");
+            }
+        }
     }
+    
 }
+

@@ -1,0 +1,74 @@
+﻿@page "/movimentazione/uscita"
+@using MagazziniMaterialiCLient.Models.Entity.DTOs
+@using MagazziniMaterialiCLient.Services
+@inject MovimentazioneService MovimentazioneService
+@inject NavigationManager Navigation
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Movimentazione Usicta</h2>
+    </div>
+
+    <EditForm Model="_movimentazione" OnValidSubmit="HandleSubmit" class="border p-4 shadow-sm">
+        <DataAnnotationsValidator />
+        <ValidationSummary class="text-danger" />
+
+        <div class="mb-3">
+            <label for="codiceMateriale" class="form-label">Codice Materiale:</label>
+            <InputText id="codiceMateriale" class="form-control" @bind-Value="_movimentazione.CodiceMateriale" />
+        </div>
+
+        <div class="mb-3">
+            <label for="magazzinoId" class="form-label">Magazzino ID:</label>
+            <InputNumber id="magazzinoId" class="form-control" @bind-Value="_movimentazione.MagazzinoId" />
+        </div>
+
+        <div class="mb-3">
+            <label for="quantita" class="form-label">Quantità:</label>
+            <InputNumber id="quantita" class="form-control" @bind-Value="_movimentazione.Quantita" />
+        </div>
+
+        <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-check"></i> Inserisci Movimentazione
+            </button>
+        </div>
+    </EditForm>
+</div>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
+@code {
+    private MovimentazioneDTO _movimentazione = new MovimentazioneDTO 
+    { 
+        TipoMovimentazione = "Uscita", 
+        DataMovimentazione = DateTime.Now 
+    };
+
+    private string? errorMessage;
+
+    private async Task HandleSubmit()
+    {
+        try
+        {
+            var response = await MovimentazioneService.MovimentazioneUscita(_movimentazione);
+
+            if (response.IsSuccessStatusCode)
+            {
+                Navigation.NavigateTo("/movimentazione/successo");
+            }
+            else
+            {
+                // Estrai il messaggio di errore dalla risposta
+                errorMessage = "Errore nell'inserimento della movimentazione. Verifica i dati inseriti.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Errore durante l'operazione: {ex.Message}";
+        }
+    }
+}

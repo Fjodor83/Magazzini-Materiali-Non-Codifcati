@@ -1,0 +1,1504 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "MagazziniMaterialiAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Account/registra-operatore": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistraOperatoreDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistraOperatoreDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistraOperatoreDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Account/assegna-ruolo-operatore": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Account/login": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Account/add-role": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Account/assign-role": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRole"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRole"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRole"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Account/get-users": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Account/get-user-role/{userName}": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "userName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Account/delete/{userName}": {
+      "delete": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "userName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Magazzino": {
+      "get": {
+        "tags": [
+          "Magazzino"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Magazzino"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MagazzinoDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MagazzinoDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MagazzinoDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Magazzino/{MagazzinoId}": {
+      "get": {
+        "tags": [
+          "Magazzino"
+        ],
+        "parameters": [
+          {
+            "name": "MagazzinoId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Magazzino"
+        ],
+        "parameters": [
+          {
+            "name": "MagazzinoId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MagazzinoDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MagazzinoDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MagazzinoDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Magazzino"
+        ],
+        "parameters": [
+          {
+            "name": "MagazzinoId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Magazzino/registerMaterialeMagazzino/{MagazzinoId}/{codiceMateriale}": {
+      "post": {
+        "tags": [
+          "Magazzino"
+        ],
+        "parameters": [
+          {
+            "name": "MagazzinoId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "codiceMateriale",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Magazzino"
+        ],
+        "parameters": [
+          {
+            "name": "MagazzinoId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "codiceMateriale",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Magazzino/MaterialiByMagazzino/{MagazzinoId}": {
+      "get": {
+        "tags": [
+          "Magazzino"
+        ],
+        "parameters": [
+          {
+            "name": "MagazzinoId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Magazzino/{id}/giacenze": {
+      "get": {
+        "tags": [
+          "Magazzino"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MagazzinoConGiacenzeDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MagazzinoConGiacenzeDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MagazzinoConGiacenzeDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Materiale": {
+      "get": {
+        "tags": [
+          "Materiale"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MaterialeDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MaterialeDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MaterialeDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Materiale"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MaterialeDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MaterialeDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MaterialeDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MaterialeDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MaterialeDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MaterialeDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Materiale/{codiceMateriale}": {
+      "get": {
+        "tags": [
+          "Materiale"
+        ],
+        "parameters": [
+          {
+            "name": "codiceMateriale",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MaterialeDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MaterialeDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MaterialeDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Materiale"
+        ],
+        "parameters": [
+          {
+            "name": "codiceMateriale",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MaterialeDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MaterialeDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MaterialeDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Materiale"
+        ],
+        "parameters": [
+          {
+            "name": "codiceMateriale",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Missioni/crea-missione": {
+      "post": {
+        "tags": [
+          "Missioni"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreaMissioneDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreaMissioneDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreaMissioneDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Missioni/missioni-operatore/{operatoreId}": {
+      "get": {
+        "tags": [
+          "Missioni"
+        ],
+        "parameters": [
+          {
+            "name": "operatoreId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Missioni/dettagli-missione/{id}": {
+      "get": {
+        "tags": [
+          "Missioni"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Missioni/aggiorna-operatore-missione": {
+      "put": {
+        "tags": [
+          "Missioni"
+        ],
+        "parameters": [
+          {
+            "name": "missioneId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "nuovoOperatoreId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Missioni/missioni": {
+      "get": {
+        "tags": [
+          "Missioni"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MissionePrelievo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MissionePrelievo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MissionePrelievo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Missioni": {
+      "get": {
+        "tags": [
+          "Missioni"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MissionePrelievo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MissionePrelievo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MissionePrelievo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Movimentazione/ingresso": {
+      "post": {
+        "tags": [
+          "Movimentazione"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MovimentazioneDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MovimentazioneDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MovimentazioneDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Movimentazione/uscita": {
+      "post": {
+        "tags": [
+          "Movimentazione"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MovimentazioneDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MovimentazioneDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MovimentazioneDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Movimentazione/{id}/storno": {
+      "delete": {
+        "tags": [
+          "Movimentazione"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Movimentazione": {
+      "get": {
+        "tags": [
+          "Movimentazione"
+        ],
+        "parameters": [
+          {
+            "name": "codiceMateriale",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MovimentazioneDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MovimentazioneDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MovimentazioneDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Classificazione": {
+        "type": "object",
+        "properties": {
+          "codiceClassificazione": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomeClassificazione": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClassificazioneDTO": {
+        "type": "object",
+        "properties": {
+          "codiceClassificazione": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomeClassificazione": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreaMissioneDto": {
+        "type": "object",
+        "properties": {
+          "tipologiaDestinazione": {
+            "type": "string",
+            "nullable": true
+          },
+          "descrizione": {
+            "type": "string",
+            "nullable": true
+          },
+          "operatoreId": {
+            "type": "string",
+            "nullable": true
+          },
+          "operatoreEmail": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DettaglioMissione": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "missionePrelievoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "missionePrelievo": {
+            "$ref": "#/components/schemas/MissionePrelievo"
+          },
+          "codiceMateriale": {
+            "type": "string",
+            "nullable": true
+          },
+          "materiale": {
+            "$ref": "#/components/schemas/Materiale"
+          },
+          "quantitaPrelevata": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GiacenzaDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "codiceMateriale": {
+            "type": "string",
+            "nullable": true
+          },
+          "magazzinoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantitaDisponibile": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantitaImpegnata": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IdentityUser": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "normalizedUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "normalizedEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailConfirmed": {
+            "type": "boolean"
+          },
+          "passwordHash": {
+            "type": "string",
+            "nullable": true
+          },
+          "securityStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "concurrencyStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumberConfirmed": {
+            "type": "boolean"
+          },
+          "twoFactorEnabled": {
+            "type": "boolean"
+          },
+          "lockoutEnd": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lockoutEnabled": {
+            "type": "boolean"
+          },
+          "accessFailedCount": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginModel": {
+        "required": [
+          "email",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email",
+            "nullable": true
+          },
+          "password": {
+            "maxLength": 50,
+            "minLength": 6,
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Magazzino": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "codiceMagazzino": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomeMagazzino": {
+            "type": "string",
+            "nullable": true
+          },
+          "descrizioneMagazzino": {
+            "type": "string",
+            "nullable": true
+          },
+          "note": {
+            "type": "string",
+            "nullable": true
+          },
+          "materialeMagazzini": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MaterialeMagazzino"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MagazzinoConGiacenzeDTO": {
+        "required": [
+          "giacenze"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "codiceMagazzino": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomeMagazzino": {
+            "type": "string",
+            "nullable": true
+          },
+          "descrizioneMagazzino": {
+            "type": "string",
+            "nullable": true
+          },
+          "note": {
+            "type": "string",
+            "nullable": true
+          },
+          "giacenze": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GiacenzaDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MagazzinoDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "codiceMagazzino": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomeMagazzino": {
+            "type": "string",
+            "nullable": true
+          },
+          "descrizioneMagazzino": {
+            "type": "string",
+            "nullable": true
+          },
+          "note": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Materiale": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "codiceMateriale": {
+            "type": "string",
+            "nullable": true
+          },
+          "descrizione": {
+            "type": "string",
+            "nullable": true
+          },
+          "note": {
+            "type": "string",
+            "nullable": true
+          },
+          "dataCreazione": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "immagini": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MaterialeImmagine"
+            },
+            "nullable": true
+          },
+          "classificazioni": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Classificazione"
+            },
+            "nullable": true
+          },
+          "materialeMagazzini": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MaterialeMagazzino"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MaterialeDTO": {
+        "type": "object",
+        "properties": {
+          "codiceMateriale": {
+            "type": "string",
+            "nullable": true
+          },
+          "descrizione": {
+            "type": "string",
+            "nullable": true
+          },
+          "note": {
+            "type": "string",
+            "nullable": true
+          },
+          "immagini": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MaterialeImmagineDTO"
+            },
+            "nullable": true
+          },
+          "classificazioni": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ClassificazioneDTO"
+            },
+            "nullable": true
+          },
+          "dataCreazione": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MaterialeImmagine": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "urlImmagine": {
+            "type": "string",
+            "nullable": true
+          },
+          "isPrincipale": {
+            "type": "boolean"
+          },
+          "qrCodeData": {
+            "type": "string",
+            "nullable": true
+          },
+          "materialeId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MaterialeImmagineDTO": {
+        "type": "object",
+        "properties": {
+          "urlImmagine": {
+            "type": "string",
+            "nullable": true
+          },
+          "isPrincipale": {
+            "type": "boolean"
+          },
+          "qrCodeData": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MaterialeMagazzino": {
+        "type": "object",
+        "properties": {
+          "materialeMagazzinoID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "codiceMateriale": {
+            "type": "string",
+            "nullable": true
+          },
+          "materiale": {
+            "$ref": "#/components/schemas/Materiale"
+          },
+          "magazzinoID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MissionePrelievo": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "codiceUnivoco": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipologiaDestinazione": {
+            "type": "string",
+            "nullable": true
+          },
+          "descrizione": {
+            "type": "string",
+            "nullable": true
+          },
+          "stato": {
+            "type": "string",
+            "nullable": true
+          },
+          "operatoreId": {
+            "type": "string",
+            "nullable": true
+          },
+          "operatore": {
+            "$ref": "#/components/schemas/IdentityUser"
+          },
+          "dettagliMissione": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DettaglioMissione"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MovimentazioneDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tipoMovimentazione": {
+            "type": "string",
+            "nullable": true
+          },
+          "codiceMateriale": {
+            "type": "string",
+            "nullable": true
+          },
+          "materiale": {
+            "$ref": "#/components/schemas/Materiale"
+          },
+          "magazzinoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "magazzino": {
+            "$ref": "#/components/schemas/Magazzino"
+          },
+          "quantita": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataMovimentazione": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nota": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegistraOperatoreDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserRole": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,33 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {}
+    "C:\\Users\\fjodo\\Desktop\\WorkPlace\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {
+    "C:\\Users\\fjodo\\Desktop\\WorkPlace\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
+        "projectUniqueName": "C:\\Users\\fjodo\\Desktop\\WorkPlace\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
         "projectName": "MagazziniMaterialiCLient",
-        "projectPath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
+        "projectPath": "C:\\Users\\fjodo\\Desktop\\WorkPlace\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\MagazziniMaterialiCLient.csproj",
         "packagesPath": "C:\\Users\\fjodo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fjodo\\OneDrive - Università degli Studi di Bari\\Documenti\\GitHub\\Tirocinio\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\obj\\",
+        "outputPath": "C:\\Users\\fjodo\\Desktop\\WorkPlace\\Magazzini-Materiali-Non-Codifcati\\MagazziniMaterialiCLient\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\fjodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -40,11 +43,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Blazored.LocalStorage": {
               "target": "Package",
@@ -60,48 +64,48 @@
             },
             "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.9, )"
             },
             "Microsoft.AspNetCore.Components.Authorization": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.9, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.9, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.9, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.9, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[9.0.8, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[9.0.8, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[13.0.4, )"
             },
             "System.Net.Http.Json": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.9, )"
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[9.0.9, )"
             },
             "iTextSharp": {
               "target": "Package",
@@ -119,12 +123,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[9.0.8, 9.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

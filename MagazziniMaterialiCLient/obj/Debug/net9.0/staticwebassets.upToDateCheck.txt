@@ -1,0 +1,14 @@
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png
+wwwroot\icon-192.png
+wwwroot\images\Gessi.jpg
+wwwroot\index.html
+wwwroot\js\js
+wwwroot\sample-data\weather.json
+C:\Users\fjodo\Desktop\WorkPlace\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\wwwroot\css\app.css
+C:\Users\fjodo\Desktop\WorkPlace\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\wwwroot\css\bootstrap\bootstrap.min.css
+C:\Users\fjodo\Desktop\WorkPlace\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\wwwroot\css\bootstrap\bootstrap.min.css.map
+C:\Users\fjodo\Desktop\WorkPlace\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\wwwroot\index.html
+C:\Users\fjodo\Desktop\WorkPlace\Magazzini-Materiali-Non-Codifcati\MagazziniMaterialiCLient\wwwroot\sample-data\weather.json
